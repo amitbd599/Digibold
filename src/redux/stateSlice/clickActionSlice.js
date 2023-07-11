@@ -3,14 +3,14 @@ import { createSlice } from "@reduxjs/toolkit";
 export const clickActionSlice = createSlice({
   name: "clickAction",
   initialState: {
-    searchPopUp: false,
+    offCanvas: false,
   },
   reducers: {
-    SetSearchPopUp: (state, action) => {
-      state.searchPopUp = action.payload;
+    SetOffCanvas: (state, action) => {
+      state.offCanvas = action.payload;
     },
   },
 });
 
-export const { SetSearchPopUp } = clickActionSlice.actions;
+export const { SetOffCanvas } = clickActionSlice.actions;
 export default clickActionSlice.reducer;
