@@ -1,5 +1,6 @@
 import React from "react";
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const AboutOne = () => {
   return (
     <>
@@ -29,7 +30,19 @@ const AboutOne = () => {
                 <div className="projects">
                   <img src="assets/imgs/icon/medal.png" alt="Medal Icon" />
                   <p>
-                    <span className="counter_fast">230+</span>Project Complete
+                    <span className="counter_fast">
+                      <TrackVisibility once>
+                        {({ isVisible }) =>
+                          isVisible && (
+                            <span className="d-inline-flex">
+                              <CountUp delay={0} start={0} end={230} />{" "}
+                              <span>+</span>
+                            </span>
+                          )
+                        }
+                      </TrackVisibility>
+                    </span>
+                    Project Complete
                   </p>
                 </div>
               </div>
