@@ -1,5 +1,5 @@
 import React from "react";
-
+import Marquee from "react-fast-marquee";
 const BrandOne = () => {
   return (
     <>
@@ -8,51 +8,53 @@ const BrandOne = () => {
         <div className="brand__inner">
           <div className="swiper brand__slider">
             <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/1.png" alt="Brand Logo" />
+              <Marquee>
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/1.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/2.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/2.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/3.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/3.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/4.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/4.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/5.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/5.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/6.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/6.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/1.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/1.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/2.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/2.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
-              <div className="swiper-slide">
-                <div className="brand__slide">
-                  <img src="assets/imgs/brand/3.png" alt="Brand Logo" />
+                <div className="swiper-slide">
+                  <div className="brand__slide">
+                    <img src="assets/imgs/brand/3.png" alt="Brand Logo" />
+                  </div>
                 </div>
-              </div>
+              </Marquee>
             </div>
           </div>
         </div>

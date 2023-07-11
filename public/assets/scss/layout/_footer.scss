@@ -2,7 +2,6 @@
 /*  28. FOOTER CSS START
 /*----------------------------------------*/
 
-
 .footer {
   &__area {
     position: relative;
@@ -17,9 +16,8 @@
       background-repeat: no-repeat;
       background-position: right bottom;
       // background-image: url(../imgs/footer/footer-bg.png);
-      background-image: url("~/public/assets/imgs/icon/arrow-xxl.png");
+      background-image: url("~/public/assets/imgs/footer/footer-bg.png");
     }
-
 
     &-3 {
       padding-top: 80px;
