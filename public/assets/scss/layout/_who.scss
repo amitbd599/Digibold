@@ -1,20 +1,18 @@
 .who {
   &__area {
     // background-image: url(../imgs/shape/zigzag.png);
-
+    background-image: url("~/public/assets/imgs/shape/zigzag.png");
     .sec-subtitle {
       margin-bottom: 30px;
     }
 
     &-6 {
-
       .who__feature,
       .project-completed::after {
         border-color: var(--yellow-2);
       }
     }
   }
-
 
   &__left {
     .sec-title-wrap {
@@ -149,7 +147,6 @@
     }
 
     .number {
-
       span {
         font-weight: 600;
         font-size: 48px;

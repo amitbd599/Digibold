@@ -350,6 +350,7 @@ TEXT SLIDER AREA 2
     &-2 {
       padding-bottom: 255px;
       // background-image: url(../imgs/home-2/process-bg.png);
+      background-image: url("~/public/assets/imgs/home-2/process-bg.png");
       overflow: hidden;
 
       @media #{$xl} {
