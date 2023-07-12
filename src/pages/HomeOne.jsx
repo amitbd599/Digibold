@@ -13,7 +13,7 @@ const TextSliderOne = React.lazy(() => import("../components/TextSliderOne"));
 const BlogOne = React.lazy(() => import("../components/BlogOne"));
 const ContactOne = React.lazy(() => import("../components/ContactOne"));
 const BrandOne = React.lazy(() => import("../components/BrandOne"));
-const Footer = React.lazy(() => import("../components/Footer"));
+const FooterOne = React.lazy(() => import("../components/FooterOne"));
 
 const HomeOne = () => {
   return (
@@ -35,7 +35,7 @@ const HomeOne = () => {
             <ContactOne />
             <BrandOne />
           </main>
-          <Footer />
+          <FooterOne />
         </Suspense>
       </Fragment>
     </>

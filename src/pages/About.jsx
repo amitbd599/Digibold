@@ -1,9 +1,13 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
-import Breadcrumb from "../components/Breadcrumb";
 const HeaderOne = React.lazy(() => import("../components/HeaderOne"));
-
-const Footer = React.lazy(() => import("../components/Footer"));
+const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
+const AboutTwo = React.lazy(() => import("../components/AboutTwo"));
+const CounterTwo = React.lazy(() => import("../components/CounterTwo"));
+const WhoWeAreTwo = React.lazy(() => import("../components/WhoWeAreTwo"));
+const TextSliderOne = React.lazy(() => import("../components/TextSliderOne"));
+const BrandTwo = React.lazy(() => import("../components/BrandTwo"));
+const FooterTwo = React.lazy(() => import("../components/FooterTwo"));
 
 const About = () => {
   return (
@@ -13,8 +17,13 @@ const About = () => {
           <HeaderOne />
           <main>
             <Breadcrumb title="About US" />
+            <AboutTwo />
+            <CounterTwo />
+            <WhoWeAreTwo />
+            <TextSliderOne />
+            <BrandTwo />
           </main>
-          <Footer />
+          <FooterTwo />
         </Suspense>
       </Fragment>
     </>

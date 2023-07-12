@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+const FooterOne = () => {
   return (
     <>
       {/* Footer area start */}
@@ -138,4 +138,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterOne;
