@@ -1,4 +1,6 @@
 import React from "react";
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 
 const TeamOne = () => {
   return (
@@ -23,7 +25,17 @@ const TeamOne = () => {
                 data-aos="fade-up"
                 data-aos-delay={300}
               >
-                <h4 className="team__award counter_fast">20+</h4>
+                <TrackVisibility once>
+                  {({ isVisible }) =>
+                    isVisible && (
+                      <>
+                        <h4 className="team__award counter_fast">
+                          <CountUp delay={0} start={0} end={20} />+
+                        </h4>
+                      </>
+                    )
+                  }
+                </TrackVisibility>
                 <p>Winning award</p>
               </div>
             </div>

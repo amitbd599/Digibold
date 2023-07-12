@@ -1,21 +1,19 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
-import HeaderOne from "../components/HeaderOne";
-import Offcanvas from "../components/Offcanvas";
-import HeroOne from "../components/HeroOne";
-import AboutOne from "../components/AboutOne";
-import ServiceOne from "../components/ServiceOne";
-import CounterOne from "../components/CounterOne";
-import FaqOne from "../components/FaqOne";
-import TeamOne from "../components/TeamOne";
-import NewsletterOne from "../components/NewsletterOne";
-import WhoWeAreOne from "../components/WhoWeAreOne";
-import TextSliderOne from "../components/TextSliderOne";
-import BlogOne from "../components/BlogOne";
-import ContactOne from "../components/ContactOne";
-import BrandOne from "../components/BrandOne";
-import Footer from "../components/Footer";
-// const BannerOne = React.lazy(() => import("../components/BannerOne"));
+const HeaderOne = React.lazy(() => import("../components/HeaderOne"));
+const HeroOne = React.lazy(() => import("../components/HeroOne"));
+const AboutOne = React.lazy(() => import("../components/AboutOne"));
+const ServiceOne = React.lazy(() => import("../components/ServiceOne"));
+const CounterOne = React.lazy(() => import("../components/CounterOne"));
+const FaqOne = React.lazy(() => import("../components/FaqOne"));
+const TeamOne = React.lazy(() => import("../components/TeamOne"));
+const NewsletterOne = React.lazy(() => import("../components/NewsletterOne"));
+const WhoWeAreOne = React.lazy(() => import("../components/WhoWeAreOne"));
+const TextSliderOne = React.lazy(() => import("../components/TextSliderOne"));
+const BlogOne = React.lazy(() => import("../components/BlogOne"));
+const ContactOne = React.lazy(() => import("../components/ContactOne"));
+const BrandOne = React.lazy(() => import("../components/BrandOne"));
+const Footer = React.lazy(() => import("../components/Footer"));
 
 const HomeOne = () => {
   return (
@@ -23,7 +21,6 @@ const HomeOne = () => {
       <Fragment>
         <Suspense fallback={<Preloader />}>
           <HeaderOne />
-          <Offcanvas />
           <main>
             <HeroOne />
             <AboutOne />
