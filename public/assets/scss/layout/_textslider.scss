@@ -35,4 +35,21 @@
       color: var(--primary);
     }
   }
+  &__text1 {
+    text-transform: uppercase;
+    color: var(--white);
+    margin: 0 50px;
+
+    @media #{$xl} {
+      font-size: 80px;
+    }
+
+    @media #{$lg} {
+      font-size: 60px;
+    }
+
+    span {
+      color: var(--primary);
+    }
+  }
 }

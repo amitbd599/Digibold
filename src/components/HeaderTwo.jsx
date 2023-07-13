@@ -176,7 +176,7 @@ const HeaderTwo = () => {
         <div className="header__inner inner-2">
           <div className="header__logo logo-2">
             <a href="">
-              <img src="assets/imgs/logo/logo.png" alt="Site Logo" />
+              <img src="/assets/imgs/logo/logo.png" alt="Site Logo" />
             </a>
           </div>
           <div className="header__menu">
