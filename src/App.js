@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import About from "./pages/About";
 import HomeTwo from "./pages/HomeTwo";
+import HomeThree from "./pages/HomeThree";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route exact path="/home" element={<HomeOne />} />
         <Route exact path="/home-2" element={<HomeTwo />} />
+        <Route exact path="/home-3" element={<HomeThree />} />
         <Route exact path="/about" element={<About />} />
       </Routes>
       <ScrollToTop smooth color="#FA4318" />

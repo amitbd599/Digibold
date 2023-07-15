@@ -13,7 +13,17 @@ const CounterThree = () => {
                 <div className="col-lg-6">
                   <div className="counter__item-2" data-aos="fade-up">
                     <img src="assets/imgs/home-2/icon-4.png" alt="item" />
-                    <span className="counter counter_fast">550+</span>
+                    <TrackVisibility once>
+                      {({ isVisible }) =>
+                        isVisible && (
+                          <>
+                            <span className="counter counter_fast">
+                              <CountUp delay={0} start={0} end={200} />+
+                            </span>
+                          </>
+                        )
+                      }
+                    </TrackVisibility>
                     <p className="dis">Project complete</p>
                   </div>
                 </div>
@@ -24,7 +34,17 @@ const CounterThree = () => {
                     data-aos-delay={300}
                   >
                     <img src="assets/imgs/home-2/icon-4.png" alt="item" />
-                    <span className="counter counter_fast">200+</span>
+                    <TrackVisibility once>
+                      {({ isVisible }) =>
+                        isVisible && (
+                          <>
+                            <span className="counter counter_fast">
+                              <CountUp delay={0} start={0} end={250} />+
+                            </span>
+                          </>
+                        )
+                      }
+                    </TrackVisibility>
                     <p className="dis">Happy customer</p>
                   </div>
                 </div>
