@@ -1,7 +1,7 @@
 .header {
   &__area {
     &-2 {
-      @media (max-width:1200px) {
+      @media (max-width: 1200px) {
         display: none;
       }
     }
@@ -29,7 +29,7 @@
     padding: 18px 30px;
     border-radius: 0;
 
-    @media (max-width:575px) {
+    @media (max-width: 575px) {
       display: none;
     }
 
@@ -53,7 +53,6 @@
     }
   }
 }
-
 
 /*
 
@@ -92,7 +91,7 @@ GALLARY AREA 2
   &__wrapper {
     &-2 {
       display: grid;
-      grid-template-columns: .47fr 1fr;
+      grid-template-columns: 0.47fr 1fr;
       gap: 75px;
       max-width: 1600px;
       margin-left: auto;
@@ -175,7 +174,6 @@ GALLARY AREA 2
   // }
 }
 
-
 /*
 
 -----------------------
@@ -200,12 +198,12 @@ TEXT SLIDER AREA 2
 
   &__area {
     &-2 {
-      background: #0058AA;
+      background: #0058aa;
       padding: 30px 0;
       overflow: hidden;
 
       &.ltr {
-        background: #0E1E2A;
+        background: #0e1e2a;
         z-index: -2;
       }
 
@@ -341,9 +339,7 @@ TEXT SLIDER AREA 2
       font-size: 30px;
     }
   }
-
 }
-
 
 .work {
   &__area {
@@ -368,11 +364,25 @@ TEXT SLIDER AREA 2
   }
 
   &__wrapper {
-    padding-top: 80px;
+    // padding-top: 80px;
+    .swiper-wrapper {
+      padding-top: 210px;
+      margin-top: -135px;
+    }
+    .swiper-button-prev {
+      top: 40px;
+      right: 130px;
+      left: auto;
+    }
+    .swiper-button-next {
+      top: 40px;
+      right: 28px;
+      left: auto;
+    }
   }
 
   &__item {
-    border: 1px solid #E3E3E3;
+    border: 1px solid #e3e3e3;
     padding: 40px;
 
     @media #{$sm} {
@@ -397,7 +407,6 @@ TEXT SLIDER AREA 2
     object-fit: cover;
   }
 
-
   &__contentwrap {
     display: flex;
     justify-content: space-between;
@@ -414,7 +423,7 @@ TEXT SLIDER AREA 2
     font-weight: 600;
     font-size: 20px;
     line-height: 1;
-    color: #090D26;
+    color: #090d26;
 
     @media #{$xl} {
       br {
@@ -466,7 +475,7 @@ TEXT SLIDER AREA 2
         height: 80px;
         line-height: 74px;
         text-align: center;
-        border: 1px solid #E3E3E3;
+        border: 1px solid #e3e3e3;
 
         @media #{$sm} {
           width: 50px;
@@ -485,8 +494,6 @@ TEXT SLIDER AREA 2
     }
   }
 }
-
-
 
 /*
 -----------------------
@@ -528,7 +535,7 @@ COUNTER AREA 2
       .counter {
         font-weight: 700;
         font-size: 80px;
-        line-height: .5;
+        line-height: 0.5;
         letter-spacing: 0.16px;
         text-transform: uppercase;
         opacity: 0.4;
@@ -575,8 +582,6 @@ COUNTER AREA 2
   }
 }
 
-
-
 /*
 -----------------------
 SERVICE AREA 2
@@ -593,7 +598,7 @@ SERVICE AREA 2
       .line-1 {
         position: absolute;
         opacity: 0.20000000298023224;
-        background: #0058AA;
+        background: #0058aa;
         width: 1px;
         height: 100%;
         left: 315px;
@@ -774,8 +779,6 @@ SERVICE AREA 2
   }
 }
 
-
-
 /*
 -----------------------
   CONTACT 2
@@ -881,8 +884,6 @@ SERVICE AREA 2
     }
   }
 }
-
-
 
 /*
 -----------------------
@@ -1014,7 +1015,6 @@ SERVICE AREA 2
   }
 }
 
-
 // Blog
 .blog {
   &__area {
@@ -1044,7 +1044,7 @@ SERVICE AREA 2
       font-weight: 600;
       font-size: 20px;
       line-height: 1.2;
-      color: #090D26;
+      color: #090d26;
       padding-bottom: 20px;
       display: inline-block;
     }
@@ -1067,7 +1067,7 @@ SERVICE AREA 2
 
       img {
         width: 100%;
-        transition: .5s;
+        transition: 0.5s;
 
         &:hover {
           transform: scale(1.2);
@@ -1092,7 +1092,7 @@ SERVICE AREA 2
 
   &__content {
     &-2 {
-      border: 1px solid #D9D9D9;
+      border: 1px solid #d9d9d9;
       border-top: 0;
       padding: 40px;
       padding-top: 35px;
@@ -1142,7 +1142,7 @@ SERVICE AREA 2
         top: 0;
         height: 616px;
         width: 100%;
-        background: #F4F5FA;
+        background: #f4f5fa;
         position: absolute;
       }
 
@@ -1183,7 +1183,11 @@ SERVICE AREA 2
         height: 100%;
         width: 100%;
         pointer-events: none;
-        background: linear-gradient(180deg, rgba(184, 251, 94, 0) 51.56%, rgba(184, 251, 94, 0.28) 100%);
+        background: linear-gradient(
+          180deg,
+          rgba(184, 251, 94, 0) 51.56%,
+          rgba(184, 251, 94, 0.28) 100%
+        );
       }
     }
   }
@@ -1247,8 +1251,6 @@ SERVICE AREA 2
   }
 }
 
-
-
 /*
 -----------------------
 ABOUT AREA 2
@@ -1289,7 +1291,8 @@ ABOUT AREA 2
         background-image: none;
         padding-top: 0;
 
-        @media #{$md} {}
+        @media #{$md} {
+        }
       }
 
       .about__thumb {
@@ -1382,8 +1385,6 @@ ABOUT AREA 2
   }
 }
 
-
-
 /*
 -----------------------
 HERO AREA 2
@@ -1413,7 +1414,7 @@ HERO AREA 2
       justify-content: space-between;
 
       @media #{$xl} {
-        grid-template-columns: .2fr 1fr .2fr;
+        grid-template-columns: 0.2fr 1fr 0.2fr;
         padding-left: 0;
         padding-right: 0px;
       }
@@ -1493,7 +1494,13 @@ HERO AREA 2
       left: -57px;
       top: 60px;
       z-index: 2;
-      background: linear-gradient(90deg, #8D71FF 0%, #6D2BFF 32.16%, #405CFF 64.84%, #21D3FD 100%);
+      background: linear-gradient(
+        90deg,
+        #8d71ff 0%,
+        #6d2bff 32.16%,
+        #405cff 64.84%,
+        #21d3fd 100%
+      );
       border-radius: 0px 0px 1000px 1000px;
 
       @media #{$md} {
@@ -1512,7 +1519,7 @@ HERO AREA 2
       right: 200px;
       top: 300px;
       z-index: 3;
-      background: #0058AA;
+      background: #0058aa;
       border-radius: 0px 0px 0px 1000px;
       transform: matrix(-1, 0, 0, 1, 0, 0);
 
@@ -1527,8 +1534,6 @@ HERO AREA 2
     }
   }
 }
-
-
 
 /*
 -----------------------
@@ -1609,7 +1614,7 @@ section.contact__area-2 {
 .db-mobile-icon {
   display: block;
 
-  @media (min-width:1200px) {
+  @media (min-width: 1200px) {
     display: none;
   }
 }

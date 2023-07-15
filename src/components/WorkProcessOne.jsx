@@ -1,5 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 const WorkProcessOne = () => {
   return (
     <>
@@ -18,24 +19,19 @@ const WorkProcessOne = () => {
               data-aos="fade-up"
               data-aos-delay={300}
             >
-              <div className="swiper-img-prev size">
-                <img
-                  src="assets/imgs/home-2/chevron-left.png"
-                  alt="chevron-left"
-                />
-              </div>
-              <div className="swiper-img-next size">
-                <img
-                  src="assets/imgs/home-2/chevron-right.png"
-                  alt="chevron-right"
-                />
-              </div>
+              <div className="swiper-img-prev size"></div>
+              <div className="swiper-img-next size"></div>
             </div>
           </div>
           <div className="work__wrapper">
             <div className="swiper workProcess-2">
-              <div className="swiper-wrapper">
-                <Swiper slidesPerView={3} spaceBetween={20}>
+              <div className="swiper-wrappers">
+                <Swiper
+                  slidesPerView={3}
+                  spaceBetween={20}
+                  modules={[Navigation]}
+                  navigation
+                >
                   <SwiperSlide>
                     <div className="swiper-slide">
                       <div

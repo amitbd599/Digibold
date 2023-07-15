@@ -8,9 +8,12 @@ import CounterThree from "../components/CounterThree";
 import GalleryOne from "../components/GalleryOne";
 import TeamTwo from "../components/TeamTwo";
 import WorkProcessOne from "../components/WorkProcessOne";
+import TextSliderTwo from "../components/TextSliderTwo";
+import BlogTwo from "../components/BlogTwo";
+import ContactTwo from "../components/ContactTwo";
 const HeaderTwo = React.lazy(() => import("../components/HeaderTwo"));
 
-const FooterOne = React.lazy(() => import("../components/FooterOne"));
+const FooterTwo = React.lazy(() => import("../components/FooterTwo"));
 
 const HomeTwo = () => {
   return (
@@ -27,8 +30,11 @@ const HomeTwo = () => {
             <GalleryOne />
             <TeamTwo />
             <WorkProcessOne />
+            <TextSliderTwo />
+            <BlogTwo />
+            <ContactTwo />
           </main>
-          <FooterOne />
+          <FooterTwo />
         </Suspense>
       </Fragment>
     </>
