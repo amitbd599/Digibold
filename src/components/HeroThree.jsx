@@ -1,5 +1,6 @@
 import React from "react";
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const HeroThree = () => {
   return (
     <>
@@ -43,24 +44,54 @@ const HeroThree = () => {
         <div className="counter__area-3-hero">
           <div className="counter__inner">
             <div className="counter__item" data-aos="fade-up">
-              <div className="counter__number counter_slow">200+</div>
-              <h3 className="counter__title">Happy customer</h3>
+              <TrackVisibility once>
+                {({ isVisible }) =>
+                  isVisible && (
+                    <>
+                      <div className="counter__number counter_slow">
+                        <CountUp delay={0} start={0} end={300} />+
+                      </div>
+                      <h3 className="counter__title">Happy customer</h3>
+                    </>
+                  )
+                }
+              </TrackVisibility>
             </div>
             <div
               className="counter__item"
               data-aos="fade-up"
               data-aos-delay={600}
             >
-              <div className="counter__number counter_slow">300+ </div>
-              <h3 className="counter__title">total branches</h3>
+              <TrackVisibility once>
+                {({ isVisible }) =>
+                  isVisible && (
+                    <>
+                      <div className="counter__number counter_slow">
+                        <CountUp delay={0} start={0} end={300} />+{" "}
+                      </div>
+                      <h3 className="counter__title">total branches</h3>
+                    </>
+                  )
+                }
+              </TrackVisibility>
             </div>
             <div
               className="counter__item"
               data-aos="fade-up"
               data-aos-delay={900}
             >
-              <div className="counter__number counter_slow">550+</div>
-              <h3 className="counter__title">Project complete</h3>
+              <TrackVisibility once>
+                {({ isVisible }) =>
+                  isVisible && (
+                    <>
+                      <div className="counter__number counter_slow">
+                        <CountUp delay={0} start={0} end={500} />+
+                      </div>
+                      <h3 className="counter__title">Project complete</h3>
+                    </>
+                  )
+                }
+              </TrackVisibility>
             </div>
           </div>
         </div>

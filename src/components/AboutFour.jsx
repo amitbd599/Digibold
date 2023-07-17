@@ -1,5 +1,6 @@
 import React from "react";
-
+import TrackVisibility from "react-on-screen";
+import CountUp from "react-countup";
 const AboutFour = () => {
   return (
     <>
@@ -12,10 +13,24 @@ const AboutFour = () => {
                 <img src="assets/imgs/about/3/1.jpg" alt="Image" />
                 <div className="projects">
                   <img src="assets/imgs/icon/user.png" alt="Medal Icon" />
-                  <p>
-                    <span className="counter_slow">5,000+</span>Satisfied
-                    Clients
-                  </p>
+
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <>
+                          <p>
+                            <span className="d-flex">
+                              <span className="counter_slow">
+                                <CountUp delay={0} start={0} end={5000} />
+                              </span>
+                              <span>+</span>
+                            </span>
+                            Satisfied Clients
+                          </p>
+                        </>
+                      )
+                    }
+                  </TrackVisibility>
                 </div>
               </div>
             </div>

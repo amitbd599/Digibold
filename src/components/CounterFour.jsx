@@ -11,32 +11,72 @@ const CounterFour = () => {
             <div className="col-xx-7 col-xl-7 col-lg-7">
               <div className="counter__list-3">
                 <div className="counter__item-3" data-aos="fade-up">
-                  <div className="counter__number-3 counter_fast">550+</div>
-                  <h2 className="counter__title-3">Project complete</h2>
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <>
+                          <div className="counter__number-3 counter_fast">
+                            <CountUp delay={0} start={0} end={500} />+
+                          </div>
+                          <h2 className="counter__title-3">Project complete</h2>
+                        </>
+                      )
+                    }
+                  </TrackVisibility>
                 </div>
                 <div
                   className="counter__item-3"
                   data-aos="fade-up"
                   data-aos-delay={300}
                 >
-                  <div className="counter__number-3 counter_fast">200+</div>
-                  <h2 className="counter__title-3">Happy customer</h2>
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <>
+                          <div className="counter__number-3 counter_fast">
+                            <CountUp delay={0} start={0} end={220} />+
+                          </div>
+                          <h2 className="counter__title-3">Happy customer</h2>
+                        </>
+                      )
+                    }
+                  </TrackVisibility>
                 </div>
                 <div
                   className="counter__item-3"
                   data-aos="fade-up"
                   data-aos-delay={600}
                 >
-                  <div className="counter__number-3 counter_fast">300+</div>
-                  <h2 className="counter__title-3">Total Branches</h2>
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <>
+                          <div className="counter__number-3 counter_fast">
+                            <CountUp delay={0} start={0} end={330} />+
+                          </div>
+                          <h2 className="counter__title-3">Total Branches</h2>
+                        </>
+                      )
+                    }
+                  </TrackVisibility>
                 </div>
                 <div
                   className="counter__item-3"
                   data-aos="fade-up"
                   data-aos-delay={900}
                 >
-                  <div className="counter__number-3 counter_fast">100+</div>
-                  <h2 className="counter__title-3">Award Winner</h2>
+                  <TrackVisibility once>
+                    {({ isVisible }) =>
+                      isVisible && (
+                        <>
+                          <div className="counter__number-3 counter_fast">
+                            <CountUp delay={0} start={0} end={110} />+
+                          </div>
+                          <h2 className="counter__title-3">Award Winner</h2>
+                        </>
+                      )
+                    }
+                  </TrackVisibility>
                 </div>
               </div>
             </div>

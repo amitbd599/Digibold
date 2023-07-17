@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 const HeaderThree = () => {
+  const [search, setSearch] = useState(false);
+  const [offCanvas, setOffCanvas] = useState(false);
+
+  const searchControl = () => {
+    setSearch(!search);
+  };
+  const offCanvasControl = () => {
+    setSearch(false);
+    setOffCanvas(!offCanvas);
+  };
   return (
     <>
       {/* Header area start */}
@@ -101,33 +111,41 @@ const HeaderThree = () => {
           </div>
           <div className="header__others">
             <div className="header__search-3">
-              <button className="search-icon">
+              <button
+                className={!search ? "search-icon" : "search-icon d-none"}
+                onClick={searchControl}
+              >
                 <i className="fa-solid fa-magnifying-glass" />
               </button>
-              <button className="search-close">
+              <button
+                className={search ? "search-close d-inline" : "search-close "}
+                onClick={searchControl}
+              >
                 <i className="fa-solid fa-xmark" />
               </button>
             </div>
             <div className="header__offcanvas-3">
-              <button className="menu_icon">
+              <button className="menu_icon" onClick={offCanvasControl}>
                 <img src="assets/imgs/icon/menu.png" alt="Menu Icon" />
               </button>
             </div>
           </div>
         </div>
       </header>
-      <div className="search__form">
+      <div className={!search ? "search__form" : "search__form showed"}>
         <form action="#">
           <input type="text" name="s" placeholder="Search..." />
         </form>
       </div>
       {/* Header area end */}
       {/* Offcanvas area start */}
-      <div className="offcanvas__area">
+      <div
+        className={!offCanvas ? "offcanvas__area" : "offcanvas__area showed"}
+      >
         <div className="offcanvas__inner">
           <div className="offcanvas__top">
             <img src="assets/imgs/logo/logo-light.png" alt="Logo" />
-            <button id="offcanvas_close">
+            <button id="offcanvas_close" onClick={offCanvasControl}>
               <i className="fa-solid fa-xmark" />
             </button>
           </div>
