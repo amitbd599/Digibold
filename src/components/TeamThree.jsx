@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 const TeamThree = () => {
   return (
     <>
@@ -19,186 +20,290 @@ const TeamThree = () => {
         <div className="team__list-3 plr-100">
           <div className="swiper team__slider-3">
             <div className="swiper-wrapper">
-              <div className="swiper-slide">
-                <div
-                  className="team__member-3"
-                  data-aos="fade-up"
-                  data-aos-delay={200}
-                >
-                  <div className="team__image-3">
-                    <a href="about.html">
-                      <img src="assets/imgs/team/3/1.png" alt="Member Image" />
-                    </a>
+              <Swiper
+                slidesPerView={4}
+                spaceBetween={20}
+                modules={[Autoplay]}
+                autoplay={{
+                  delay: 500,
+                  disableOnInteraction: true,
+                }}
+                loop
+              >
+                <SwiperSlide>
+                  <div
+                    className="team__member-3"
+                    data-aos="fade-up"
+                    data-aos-delay={200}
+                  >
+                    <div className="team__image-3">
+                      <a href="about.html">
+                        <img
+                          src="assets/imgs/team/3/1.png"
+                          alt="Member Image"
+                        />
+                      </a>
+                    </div>
+                    <div className="team__content-3">
+                      <ul className="social-media">
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-facebook-f" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-linkedin-in" />
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="about.html">
+                        <h5 className="team__title-3">Annette Black</h5>
+                      </a>
+                      <p>Finance Assistant</p>
+                    </div>
                   </div>
-                  <div className="team__content-3">
-                    <ul className="social-media">
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <a href="about.html">
-                      <h5 className="team__title-3">Annette Black</h5>
-                    </a>
-                    <p>Finance Assistant</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div
+                    className="team__member-3"
+                    data-aos="fade-up"
+                    data-aos-delay={400}
+                  >
+                    <div className="team__image-3">
+                      <a href="about.html">
+                        <img
+                          src="assets/imgs/team/3/2.png"
+                          alt="Member Image"
+                        />
+                      </a>
+                    </div>
+                    <div className="team__content-3">
+                      <ul className="social-media">
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-facebook-f" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-linkedin-in" />
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="about.html">
+                        <h5 className="team__title-3">Christaine Eve</h5>
+                      </a>
+                      <p> Founder &amp; CEO </p>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div
-                  className="team__member-3"
-                  data-aos="fade-up"
-                  data-aos-delay={400}
-                >
-                  <div className="team__image-3">
-                    <a href="about.html">
-                      <img src="assets/imgs/team/3/2.png" alt="Member Image" />
-                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div
+                    className="team__member-3"
+                    data-aos="fade-up"
+                    data-aos-delay={600}
+                  >
+                    <div className="team__image-3">
+                      <a href="about.html">
+                        <img
+                          src="assets/imgs/team/3/3.png"
+                          alt="Member Image"
+                        />
+                      </a>
+                    </div>
+                    <div className="team__content-3">
+                      <ul className="social-media">
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-facebook-f" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-linkedin-in" />
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="about.html">
+                        <h5 className="team__title-3">Annette Black</h5>
+                      </a>
+                      <p>Finance Assistant</p>
+                    </div>
                   </div>
-                  <div className="team__content-3">
-                    <ul className="social-media">
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <a href="about.html">
-                      <h5 className="team__title-3">Christaine Eve</h5>
-                    </a>
-                    <p> Founder &amp; CEO </p>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div
+                    className="team__member-3"
+                    data-aos="fade-up"
+                    data-aos-delay={800}
+                  >
+                    <div className="team__image-3">
+                      <a href="about.html">
+                        <img
+                          src="assets/imgs/team/3/4.png"
+                          alt="Member Image"
+                        />
+                      </a>
+                    </div>
+                    <div className="team__content-3">
+                      <ul className="social-media">
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-facebook-f" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-linkedin-in" />
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="about.html">
+                        <h5 className="team__title-3">Jhon Adam</h5>
+                      </a>
+                      <p>Lead Developer</p>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div
-                  className="team__member-3"
-                  data-aos="fade-up"
-                  data-aos-delay={600}
-                >
-                  <div className="team__image-3">
-                    <a href="about.html">
-                      <img src="assets/imgs/team/3/3.png" alt="Member Image" />
-                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div
+                    className="team__member-3"
+                    data-aos="fade-up"
+                    data-aos-delay={200}
+                  >
+                    <div className="team__image-3">
+                      <a href="about.html">
+                        <img
+                          src="assets/imgs/team/3/1.png"
+                          alt="Member Image"
+                        />
+                      </a>
+                    </div>
+                    <div className="team__content-3">
+                      <ul className="social-media">
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-facebook-f" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-linkedin-in" />
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="about.html">
+                        <h5 className="team__title-3">Annette Black</h5>
+                      </a>
+                      <p>Finance Assistant</p>
+                    </div>
                   </div>
-                  <div className="team__content-3">
-                    <ul className="social-media">
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <a href="about.html">
-                      <h5 className="team__title-3">Annette Black</h5>
-                    </a>
-                    <p>Finance Assistant</p>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div
+                    className="team__member-3"
+                    data-aos="fade-up"
+                    data-aos-delay={200}
+                  >
+                    <div className="team__image-3">
+                      <a href="about.html">
+                        <img
+                          src="assets/imgs/team/3/1.png"
+                          alt="Member Image"
+                        />
+                      </a>
+                    </div>
+                    <div className="team__content-3">
+                      <ul className="social-media">
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-facebook-f" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-linkedin-in" />
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="about.html">
+                        <h5 className="team__title-3">Annette Black</h5>
+                      </a>
+                      <p>Finance Assistant</p>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div
-                  className="team__member-3"
-                  data-aos="fade-up"
-                  data-aos-delay={800}
-                >
-                  <div className="team__image-3">
-                    <a href="about.html">
-                      <img src="assets/imgs/team/3/4.png" alt="Member Image" />
-                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div
+                    className="team__member-3"
+                    data-aos="fade-up"
+                    data-aos-delay={400}
+                  >
+                    <div className="team__image-3">
+                      <a href="about.html">
+                        <img
+                          src="assets/imgs/team/3/2.png"
+                          alt="Member Image"
+                        />
+                      </a>
+                    </div>
+                    <div className="team__content-3">
+                      <ul className="social-media">
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-facebook-f" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-twitter" />
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i className="fa-brands fa-linkedin-in" />
+                          </a>
+                        </li>
+                      </ul>
+                      <a href="about.html">
+                        <h5 className="team__title-3">Christaine Eve</h5>
+                      </a>
+                      <p> Founder &amp; CEO </p>
+                    </div>
                   </div>
-                  <div className="team__content-3">
-                    <ul className="social-media">
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <a href="about.html">
-                      <h5 className="team__title-3">Jhon Adam</h5>
-                    </a>
-                    <p>Lead Developer</p>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <div
-                  className="team__member-3"
-                  data-aos="fade-up"
-                  data-aos-delay={200}
-                >
-                  <div className="team__image-3">
-                    <a href="about.html">
-                      <img src="assets/imgs/team/3/1.png" alt="Member Image" />
-                    </a>
-                  </div>
-                  <div className="team__content-3">
-                    <ul className="social-media">
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-facebook-f" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                      </li>
-                    </ul>
-                    <a href="about.html">
-                      <h5 className="team__title-3">Annette Black</h5>
-                    </a>
-                    <p>Finance Assistant</p>
-                  </div>
-                </div>
-              </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </div>

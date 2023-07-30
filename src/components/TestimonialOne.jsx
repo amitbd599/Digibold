@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 const TestimonialOne = () => {
   return (
     <>
@@ -31,138 +32,149 @@ const TestimonialOne = () => {
               >
                 <div className="swiper testimonial__slider-3">
                   <div className="swiper-wrapper">
-                    <div className="swiper-slide">
-                      <div className="testimonial__slide-3">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur. Non lacus
-                          pellentesque quam fauc ibus. Ridiculus malesuada mi
-                          etiam sit elementum quis auctor. Dignissim mi
-                          imperdiet pretium purus varius adipiscing morbi eu.
-                          Bibendum at nec It is a long established fact that a
-                          reader will be distracted by the readable content of a
-                          page when looking at its layout.
-                        </p>
-                        <div className="testimonial__content-3">
-                          <div className="img">
-                            <img
-                              src="assets/imgs/testimonial/3/client.png"
-                              alt="Image"
-                            />
-                          </div>
-                          <div className="info">
-                            <h3 className="client__name-3">Christaine Eve</h3>
-                            <h4 className="client__role-3">
-                              Founder &amp; CEO
-                            </h4>
-                            <ul className="rating">
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide">
-                      <div className="testimonial__slide-3">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur. Non lacus
-                          pellentesque quam fauc ibus. Ridiculus malesuada mi
-                          etiam sit elementum quis auctor. Dignissim mi
-                          imperdiet pretium purus varius adipiscing morbi eu.
-                          Bibendum at nec It is a long established fact that a
-                          reader will be distracted by the readable content of a
-                          page when looking at its layout.
-                        </p>
-                        <div className="testimonial__content-3">
-                          <div className="img">
-                            <img
-                              src="assets/imgs/testimonial/3/client.png"
-                              alt="Image"
-                            />
-                          </div>
-                          <div className="info">
-                            <h3 className="client__name-3">Anns Underwood</h3>
-                            <h4 className="client__role-3">
-                              Founder &amp; CEO
-                            </h4>
-                            <ul className="rating">
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                            </ul>
+                    <Swiper
+                      slidesPerView={1}
+                      spaceBetween={20}
+                      modules={[Autoplay]}
+                      autoplay={{
+                        delay: 3500,
+                        disableOnInteraction: true,
+                      }}
+                      loop
+                    >
+                      <SwiperSlide>
+                        <div className="testimonial__slide-3">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur. Non lacus
+                            pellentesque quam fauc ibus. Ridiculus malesuada mi
+                            etiam sit elementum quis auctor. Dignissim mi
+                            imperdiet pretium purus varius adipiscing morbi eu.
+                            Bibendum at nec It is a long established fact that a
+                            reader will be distracted by the readable content of
+                            a page when looking at its layout.
+                          </p>
+                          <div className="testimonial__content-3">
+                            <div className="img">
+                              <img
+                                src="assets/imgs/testimonial/3/client.png"
+                                alt="Image"
+                              />
+                            </div>
+                            <div className="info">
+                              <h3 className="client__name-3">Christaine Eve</h3>
+                              <h4 className="client__role-3">
+                                Founder &amp; CEO
+                              </h4>
+                              <ul className="rating">
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                    <div className="swiper-slide">
-                      <div className="testimonial__slide-3">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur. Non lacus
-                          pellentesque quam fauc ibus. Ridiculus malesuada mi
-                          etiam sit elementum quis auctor. Dignissim mi
-                          imperdiet pretium purus varius adipiscing morbi eu.
-                          Bibendum at nec It is a long established fact that a
-                          reader will be distracted by the readable content of a
-                          page when looking at its layout.
-                        </p>
-                        <div className="testimonial__content-3">
-                          <div className="img">
-                            <img
-                              src="assets/imgs/testimonial/3/client.png"
-                              alt="Image"
-                            />
-                          </div>
-                          <div className="info">
-                            <h3 className="client__name-3">Merekian Dev</h3>
-                            <h4 className="client__role-3">
-                              Founder &amp; CEO
-                            </h4>
-                            <ul className="rating">
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                              <li>
-                                <i className="fa-solid fa-star" />
-                              </li>
-                            </ul>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <div className="testimonial__slide-3">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur. Non lacus
+                            pellentesque quam fauc ibus. Ridiculus malesuada mi
+                            etiam sit elementum quis auctor. Dignissim mi
+                            imperdiet pretium purus varius adipiscing morbi eu.
+                            Bibendum at nec It is a long established fact that a
+                            reader will be distracted by the readable content of
+                            a page when looking at its layout.
+                          </p>
+                          <div className="testimonial__content-3">
+                            <div className="img">
+                              <img
+                                src="assets/imgs/testimonial/3/client.png"
+                                alt="Image"
+                              />
+                            </div>
+                            <div className="info">
+                              <h3 className="client__name-3">Anns Underwood</h3>
+                              <h4 className="client__role-3">
+                                Founder &amp; CEO
+                              </h4>
+                              <ul className="rating">
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
+                      </SwiperSlide>
+                      <SwiperSlide>
+                        <div className="testimonial__slide-3">
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur. Non lacus
+                            pellentesque quam fauc ibus. Ridiculus malesuada mi
+                            etiam sit elementum quis auctor. Dignissim mi
+                            imperdiet pretium purus varius adipiscing morbi eu.
+                            Bibendum at nec It is a long established fact that a
+                            reader will be distracted by the readable content of
+                            a page when looking at its layout.
+                          </p>
+                          <div className="testimonial__content-3">
+                            <div className="img">
+                              <img
+                                src="assets/imgs/testimonial/3/client.png"
+                                alt="Image"
+                              />
+                            </div>
+                            <div className="info">
+                              <h3 className="client__name-3">Merekian Dev</h3>
+                              <h4 className="client__role-3">
+                                Founder &amp; CEO
+                              </h4>
+                              <ul className="rating">
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                                <li>
+                                  <i className="fa-solid fa-star" />
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    </Swiper>
                   </div>
                 </div>
               </div>

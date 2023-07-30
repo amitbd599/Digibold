@@ -7,7 +7,7 @@ const CounterTwo = React.lazy(() => import("../components/CounterTwo"));
 const WhoWeAreTwo = React.lazy(() => import("../components/WhoWeAreTwo"));
 const TextSliderOne = React.lazy(() => import("../components/TextSliderOne"));
 const BrandTwo = React.lazy(() => import("../components/BrandTwo"));
-const FooterTwo = React.lazy(() => import("../components/FooterTwo"));
+const FooterFour = React.lazy(() => import("../components/FooterFour"));
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
             <TextSliderOne />
             <BrandTwo />
           </main>
-          <FooterTwo />
+          <FooterFour />
         </Suspense>
       </Fragment>
     </>
