@@ -13,7 +13,7 @@ const ContactPage = () => {
         <Suspense fallback={<Preloader />}>
           <HeaderOne />
           <main>
-            <Breadcrumb title="Blog" />
+            <Breadcrumb title="Contact" />
             <Contact />
           </main>
           <FooterFour />

@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 const AboutFour = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const AboutFour = () => {
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
               <div className="about__imgs-3" data-aos="fade-up">
-                <img src="assets/imgs/about/3/1.jpg" alt="Image" />
+                <img src="assets/imgs/about/3/1.jpg" alt="digibold" />
                 <div className="projects">
                   <img src="assets/imgs/icon/user.png" alt="Medal Icon" />
 
@@ -55,15 +56,15 @@ const AboutFour = () => {
                   <li>Creative this the first true generator on the designe</li>
                 </ul>
                 <div className="about__btn-3">
-                  <a className="db-btn-border btn-rollover" href="about.html">
+                  <Link className="db-btn-border btn-rollover" to="/about">
                     Discover more <i className="fa-solid fa-arrow-right" />
-                  </a>
-                  <a className="db-btn-call" href="callto:45654987">
+                  </Link>
+                  <Link className="db-btn-call" to="callto:45654987">
                     <span>
                       <i className="fa-solid fa-phone" />
                     </span>{" "}
                     + (123) 45654987
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

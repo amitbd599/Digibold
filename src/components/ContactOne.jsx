@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ContactOne = () => {
   return (
@@ -37,12 +38,12 @@ const ContactOne = () => {
                         <i className="fa-solid fa-envelope" />
                       </span>
                       <div>
-                        <a href="mailto:company@.com">
+                        <Link to="mailto:company@.com">
                           Main Email : our company@.com
-                        </a>
-                        <a href="mailto:ompny@mail.com">
+                        </Link>
+                        <Link to="mailto:ompny@mail.com">
                           Sub Email: compny@mail.com
-                        </a>
+                        </Link>
                       </div>
                     </li>
                     <li>
@@ -50,10 +51,12 @@ const ContactOne = () => {
                         <i className="fa-solid fa-phone" />
                       </span>
                       <div>
-                        <a href="tel:006475785769">
+                        <Link to="tel:006475785769">
                           Telephone : 006475 785769{" "}
-                        </a>
-                        <a href="tel:00123456789">Mobile : 00 123 456 789</a>
+                        </Link>
+                        <Link to="tel:00123456789">
+                          Mobile : 00 123 456 789
+                        </Link>
                       </div>
                     </li>
                   </ul>

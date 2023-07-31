@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogThree = () => {
   return (
@@ -22,33 +23,33 @@ const BlogThree = () => {
                   data-aos-delay={300}
                 >
                   <div className="blog__thumb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       <img src="assets/imgs/blog/3/1.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                     <div className="date">
                       16 <br /> March
                     </div>
                   </div>
                   <ul className="blog__meta-3">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-regular fa-comments" /> Comments (05)
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-regular fa-user" /> By admin
-                      </a>
+                      </Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h4 className="blog__title-3">
                       The standard chunk of Lorem Ipsum Our Company
                     </h4>
-                  </a>
-                  <a className="db-btn-arrow" href="blog-details.html">
+                  </Link>
+                  <Link className="db-btn-arrow" to="/blog-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </article>
                 <article
                   className="blog__item-3"
@@ -56,33 +57,33 @@ const BlogThree = () => {
                   data-aos-delay={600}
                 >
                   <div className="blog__thumb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       <img src="assets/imgs/blog/3/2.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                     <div className="date">
                       16 <br /> March
                     </div>
                   </div>
                   <ul className="blog__meta-3">
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-comments" /> Comments (05)
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-user" /> By admin
-                      </a>
+                      </Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h4 className="blog__title-3">
                       Trusted IT Partner for Your <br /> Business Growth
                     </h4>
-                  </a>
-                  <a className="db-btn-arrow" href="blog-details.html">
+                  </Link>
+                  <Link className="db-btn-arrow" to="/blog-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </article>
                 <article
                   className="blog__item-3"
@@ -90,33 +91,33 @@ const BlogThree = () => {
                   data-aos-delay={900}
                 >
                   <div className="blog__thumb-3">
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       <img src="assets/imgs/blog/3/3.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                     <div className="date">
                       16 <br /> March
                     </div>
                   </div>
                   <ul className="blog__meta-3">
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-comments" /> Comments (05)
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-user" /> By admin
-                      </a>
+                      </Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h4 className="blog__title-3">
                       The standard chunk of Lorem Ipsum <br /> Our Company
                     </h4>
-                  </a>
-                  <a className="db-btn-arrow" href="blog-details.html">
+                  </Link>
+                  <Link className="db-btn-arrow" to="/blog-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </article>
               </div>
             </div>

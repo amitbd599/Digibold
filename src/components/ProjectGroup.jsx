@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectGroup = () => {
   return (
@@ -11,137 +12,137 @@ const ProjectGroup = () => {
               <div className="portfolio__list-6">
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/1.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/2.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/3.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/4.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/5.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/6.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/7.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/8.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="portfolio__item-4">
                   <div className="shine">
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <img src="assets/imgs/portfolio/9.jpg" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__content-4">
                     <p>Lorem Ipsum is simply</p>
-                    <a href="project-details.html">
+                    <Link to="/project-details">
                       <h2 className="portfolio__title-4">
                         Content Creation Services
                       </h2>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

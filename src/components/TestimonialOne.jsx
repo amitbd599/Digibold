@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 const TestimonialOne = () => {
   return (
     <>
@@ -19,9 +20,9 @@ const TestimonialOne = () => {
                   auctor. Dignissim mi imperdiet pretium purus hkhk varius
                   adipiscing morbi eu. Bibendum at nec lobortis eget.
                 </p>
-                <a className="db-btn-border" href="about.html">
+                <Link className="db-btn-border" to="/about">
                   read more <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -31,7 +32,7 @@ const TestimonialOne = () => {
                 data-aos-delay={300}
               >
                 <div className="swiper testimonial__slider-3">
-                  <div className="swiper-wrapper">
+                  <div className="swiper-wrappers">
                     <Swiper
                       slidesPerView={1}
                       spaceBetween={20}

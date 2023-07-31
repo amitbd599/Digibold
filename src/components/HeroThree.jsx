@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 const HeroThree = () => {
   return (
     <>
@@ -11,17 +12,17 @@ const HeroThree = () => {
             <img
               className="image-1 cxufadeUp"
               src="assets/imgs/hero/3/1.png"
-              alt="Image"
+              alt="digibold"
             />
             <img
               className="image-2 cxufadeUp2"
               src="assets/imgs/hero/3/2.png"
-              alt="Image"
+              alt="digibold"
             />
             <img
               className="image-3 cxufadeUp3"
               src="assets/imgs/hero/3/3.png"
-              alt="Image"
+              alt="digibold"
             />
           </div>
           <div className="hero__title-3-wrap">
@@ -32,7 +33,7 @@ const HeroThree = () => {
             <img className="line" src="assets/imgs/shape/line.png" alt="Line" />
           </div>
           <div className="hero__contact-3 cxufadeUp4">
-            <a href="about.html"> Get in Touch </a>
+            <Link to="/about"> Get in Touch </Link>
           </div>
         </div>
         <img

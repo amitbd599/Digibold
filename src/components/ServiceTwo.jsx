@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceTwo = () => {
   return (
@@ -33,16 +34,16 @@ const ServiceTwo = () => {
                     available,ut the majority have <br /> suffered alteration in
                     sme form
                   </p>
-                  <a
+                  <Link
                     className="service__readmore-2"
-                    href="service-details.html"
+                    to="/service-details"
                   >
                     Read more{" "}
                     <img
                       src="assets/imgs/home-2/arrow-down.png"
                       alt="arrow-down"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
@@ -60,16 +61,16 @@ const ServiceTwo = () => {
                     available,ut the majority have <br /> suffered alteration in
                     sme form
                   </p>
-                  <a
+                  <Link
                     className="service__readmore-2"
-                    href="service-details.html"
+                    to="/service-details"
                   >
                     Read more{" "}
                     <img
                       src="assets/imgs/home-2/arrow-down.png"
                       alt="arrow-down"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
@@ -87,16 +88,16 @@ const ServiceTwo = () => {
                     available,ut the majority have <br /> suffered alteration in
                     sme form
                   </p>
-                  <a
+                  <Link
                     className="service__readmore-2"
-                    href="service-details.html"
+                    to="/service-details"
                   >
                     Read more{" "}
                     <img
                       src="assets/imgs/home-2/arrow-down.png"
                       alt="arrow-down"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

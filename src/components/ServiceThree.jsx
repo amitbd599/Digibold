@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceThree = () => {
   return (
@@ -40,19 +41,19 @@ const ServiceThree = () => {
                   <img src="assets/imgs/icon/s4.png" alt="Service Icon" />
                 </div>
                 <div className="service__content-3">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <div className="service__title-3">The Digital Touch</div>
-                  </a>
+                  </Link>
                   <p>
                     It is a long established fact that a reader lio will be lio
                     distracted by the readable content of an seo page desgner
                   </p>
-                  <a
+                  <Link
                     className="db-btn-border btn-rollover color-1"
-                    href="service-details.html"
+                    to="/service-details"
                   >
                     Discover more <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -64,21 +65,21 @@ const ServiceThree = () => {
                   <img src="assets/imgs/icon/s5.png" alt="Service Icon" />
                 </div>
                 <div className="service__content-3">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <div className="service__title-3">
                       Creative Edge Solutions
                     </div>
-                  </a>
+                  </Link>
                   <p>
                     It is a long established fact that a reader lio will be lio
                     distracted by the readable content of an seo page desgner
                   </p>
-                  <a
+                  <Link
                     className="db-btn-border btn-rollover color-1"
-                    href="service-details.html"
+                    to="/service-details"
                   >
                     Discover more <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -90,21 +91,21 @@ const ServiceThree = () => {
                   <img src="assets/imgs/icon/s6.png" alt="Service Icon" />
                 </div>
                 <div className="service__content-3">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <div className="service__title-3">
                       Infinity Creative Group
                     </div>
-                  </a>
+                  </Link>
                   <p>
                     It is a long established fact that a reader lio will be lio
                     distracted by the readable content of an seo page desgner
                   </p>
-                  <a
+                  <Link
                     className="db-btn-border btn-rollover color-1"
-                    href="service-details.html"
+                    to="/service-details"
                   >
                     Discover more <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

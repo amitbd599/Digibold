@@ -1,6 +1,5 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Link } from "react-router-dom";
 const WorkProcessTwo = () => {
   return (
     <>
@@ -29,9 +28,9 @@ const WorkProcessTwo = () => {
                     </p>
                   </div>
                   <div className="process__btn-3">
-                    <a className="db-btn-border" href="about.html">
+                    <Link className="db-btn-border" to="/about">
                       read more <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div
@@ -48,9 +47,9 @@ const WorkProcessTwo = () => {
                     </p>
                   </div>
                   <div className="process__btn-3">
-                    <a className="db-btn-border" href="about.html">
+                    <Link className="db-btn-border" to="/about">
                       read more <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div
@@ -67,9 +66,9 @@ const WorkProcessTwo = () => {
                     </p>
                   </div>
                   <div className="process__btn-3">
-                    <a className="db-btn-border" href="about.html">
+                    <Link className="db-btn-border" to="/about">
                       read more <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

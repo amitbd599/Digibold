@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeOne from "./pages/HomeOne";
 import AOS from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
@@ -28,9 +27,9 @@ function App() {
     <BrowserRouter>
       <RouteScrollToTop />
       <Routes>
-        <Route exact path="/home" element={<HomeOne />} />
-        <Route exact path="/home-2" element={<HomeTwo />} />
-        <Route exact path="/home-3" element={<HomeThree />} />
+        <Route exact path="/" element={<HomeOne />} />
+        <Route exact path="/index-2" element={<HomeTwo />} />
+        <Route exact path="/index-3" element={<HomeThree />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />
@@ -39,7 +38,7 @@ function App() {
         <Route exact path="/service-details" element={<ServiceDetailsPage />} />
         <Route exact path="/contact" element={<ContactPage />} />
       </Routes>
-      <ScrollToTop smooth color="#FA4318" />
+      <ScrollToTop smooth color="#22F55D" />
     </BrowserRouter>
   );
 }

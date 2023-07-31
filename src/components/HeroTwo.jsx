@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroTwo = () => {
   return (
@@ -17,13 +18,13 @@ const HeroTwo = () => {
               <p className="hero__area-dis cxufadeUp2">
                 There are many variations of passages{" "}
               </p>
-              <a
+              <Link
                 className="header__btn arrow-down btn-rollover cxufadeUp3"
-                href="about.html"
+                to="/about"
               >
                 Discover more
                 <i className="fa-solid fa-arrow-right"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="hero__area-item">

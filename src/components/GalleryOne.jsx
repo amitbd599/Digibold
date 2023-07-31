@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const GalleryOne = () => {
   return (
@@ -74,12 +75,12 @@ const GalleryOne = () => {
                 data-aos="fade-up"
                 data-aos-delay={600}
               >
-                <a className="about__arrowup" href="project.html">
+                <Link className="about__arrowup" to="/project.ht">
                   <img
                     src="assets/imgs/home-2/arrow-lg-down.png"
                     alt="arrowup"
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -96,15 +97,15 @@ const GalleryOne = () => {
                 aria-labelledby="pills-home-tab"
               >
                 <div className="gallary__items">
-                  <a href="project-details.html">
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-1.jpg" alt="g" />
-                  </a>
-                  <a href="project-details.html">
+                  </Link>
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-2.jpg" alt="g" />
-                  </a>
-                  <a href="project-details.html">
+                  </Link>
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-3.jpg" alt="g" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -114,15 +115,15 @@ const GalleryOne = () => {
                 aria-labelledby="pills-profile-tab"
               >
                 <div className="gallary__items">
-                  <a href="project-details.html">
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-1.jpg" alt="g" />
-                  </a>
-                  <a href="project-details.html">
+                  </Link>
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-2.jpg" alt="g" />
-                  </a>
-                  <a href="project-details.html">
+                  </Link>
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-3.jpg" alt="g" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -132,15 +133,15 @@ const GalleryOne = () => {
                 aria-labelledby="pills-contact-tab"
               >
                 <div className="gallary__items">
-                  <a href="project-details.html">
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-1.jpg" alt="g" />
-                  </a>
-                  <a href="project-details.html">
+                  </Link>
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-2.jpg" alt="g" />
-                  </a>
-                  <a href="project-details.html">
+                  </Link>
+                  <Link to="/project-details">
                     <img src="assets/imgs/home-2/gallary-3.jpg" alt="g" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

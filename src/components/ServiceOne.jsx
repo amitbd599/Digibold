@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceOne = () => {
   return (
@@ -38,16 +39,16 @@ const ServiceOne = () => {
                   <img src="assets/imgs/icon/s3.png" alt="Service Icon" />
                 </div>
                 <div className="service__content">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <div className="service__title">Pixel Perfect Design</div>
-                  </a>
+                  </Link>
                   <p>
                     Health and medical is a encompasses a wide range of topics
                     related to health
                   </p>
-                  <a className="db-btn-arrow" href="service-details.html">
+                  <Link className="db-btn-arrow" to="/service-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -61,18 +62,18 @@ const ServiceOne = () => {
                   <img src="assets/imgs/icon/s1.png" alt="Service Icon" />
                 </div>
                 <div className="service__content">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <div className="service__title">
                       Creative Edge Solutions
                     </div>
-                  </a>
+                  </Link>
                   <p>
                     Health and medical is a encompasses a wide range of topics
                     related to health
                   </p>
-                  <a className="db-btn-arrow" href="service-details.html">
+                  <Link className="db-btn-arrow" to="/service-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -86,16 +87,16 @@ const ServiceOne = () => {
                   <img src="assets/imgs/icon/s2.png" alt="Service Icon" />
                 </div>
                 <div className="service__content">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <div className="service__title">The Pixel Producers</div>
-                  </a>
+                  </Link>
                   <p>
                     Health and medical is a encompasses a wide range of topics
                     related to health
                   </p>
-                  <a className="db-btn-arrow" href="service-details.html">
+                  <Link className="db-btn-arrow" to="/service-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

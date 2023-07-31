@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 
 const TeamOne = () => {
   return (
@@ -52,19 +53,19 @@ const TeamOne = () => {
                       </button>
                       <ul className="social-share">
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -87,19 +88,19 @@ const TeamOne = () => {
                       </button>
                       <ul className="social-share">
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -122,19 +123,19 @@ const TeamOne = () => {
                       </button>
                       <ul className="social-share">
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 const CounterFour = () => {
   return (
     <>
@@ -99,9 +100,9 @@ const CounterFour = () => {
                   <li>making this the first true generator on the Internet</li>
                   <li>Creative this the first true generator on the designe</li>
                 </ul>
-                <a className="db-btn-border" href="about.html">
+                <Link className="db-btn-border" to="/about">
                   read more <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

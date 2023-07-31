@@ -1,12 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeaderTwo = () => {
   const [search, setSearch] = useState(false);
   const [offCanvas, setOffCanvas] = useState(false);
+  const [active, setActive] = useState(false);
 
-  const searchControl = () => {
-    setSearch(!search);
-  };
+  useEffect(() => {
+    var offCanvasNav = document.getElementById("offcanvas-navigation");
+    var offCanvasNavSubMenu = offCanvasNav.querySelectorAll(".sub-menu");
+
+    for (let i = 0; i < offCanvasNavSubMenu.length; i++) {
+      offCanvasNavSubMenu[i].insertAdjacentHTML(
+        "beforebegin",
+        "<span class='menu-expand'><i></i></span>"
+      );
+    }
+
+    var menuExpand = offCanvasNav.querySelectorAll(".menu-expand");
+    var numMenuExpand = menuExpand.length;
+
+    function sideMenuExpand() {
+      if (this.parentElement.classList.contains("active") === true) {
+        this.parentElement.classList.remove("active");
+      } else {
+        for (let i = 0; i < numMenuExpand; i++) {
+          menuExpand[i].parentElement.classList.remove("active");
+        }
+        this.parentElement.classList.add("active");
+      }
+    }
+
+    for (let i = 0; i < numMenuExpand; i++) {
+      menuExpand[i].addEventListener("click", sideMenuExpand);
+    }
+  }, []);
+
   const offCanvasControl = () => {
     setSearch(false);
     setOffCanvas(!offCanvas);
@@ -14,11 +43,13 @@ const HeaderTwo = () => {
   return (
     <>
       {/* Offcanvas area start */}
-      <div className="offcanvas__area">
+      <div
+        className={!offCanvas ? "offcanvas__area" : "offcanvas__area showed"}
+      >
         <div className="offcanvas__inner">
           <div className="offcanvas__top">
             <img src="assets/imgs/logo/logo-light.png" alt="Logo" />
-            <button id="offcanvas_close">
+            <button id="offcanvas_close" onClick={offCanvasControl}>
               <i className="fa-solid fa-xmark" />
             </button>
           </div>
@@ -28,85 +59,77 @@ const HeaderTwo = () => {
             </form>
           </div>
           <div className="offcanvas__menu">
-            <div className="offcanvas-menu">
+            <nav className="offcanvas-navigation" id="offcanvas-navigation">
               <ul>
-                <li>
-                  <a href="#">Home</a>
-                  <ul>
+                <li className="menu-item-has-children">
+                  <Link to="/">HOME</Link>
+                  <ul className="sub-menu">
                     <li>
-                      <a href="index.html">home one</a>
+                      <Link to="/">Home One</Link>
                     </li>
                     <li>
-                      <a href="index-2.html">home two</a>
+                      <Link to="/index-2">Home Two</Link>
                     </li>
                     <li>
-                      <a href="index-3.html">home three</a>
+                      <Link to="/index-3">Home Three</Link>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className="menu-item-has-children">
+                  <Link to="/services">Services</Link>
+                  <ul className="sub-menu">
+                    <li>
+                      <Link to="/services">Service Page</Link>
+                    </li>
+                    <li>
+                      <Link to="/services-details">Services Details</Link>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className="menu-item-has-children">
+                  <Link to="/about">Pages</Link>
+                  <ul className="sub-menu">
+                    <li>
+                      <Link to="/about">About Us</Link>
+                    </li>
+                    <li>
+                      <Link to="/team">Team</Link>
+                    </li>
+                    <li>
+                      <Link to="/team-details">Team Details</Link>
+                    </li>
+                    <li>
+                      <Link to="/project">Projects</Link>
+                    </li>
+                    <li>
+                      <Link to="/project-details">Projects Details</Link>
+                    </li>
+                    <li>
+                      <Link to="/pricing">Pricing Page</Link>
+                    </li>
+                    <li>
+                      <Link to="/faq">FAQ Page</Link>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-item-has-children">
+                  <Link to="/blog">Blog</Link>
+                  <ul className="sub-menu">
+                    <li>
+                      <Link to="/blog">Blog</Link>
+                    </li>
+                    <li>
+                      <Link to="/blog-details">Blog Details</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
-                </li>
-                <li>
-                  <a href="#">Service</a>
-                  <ul>
-                    <li>
-                      <a href="service-details.html">Service details</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">portfolio</a>
-                  <ul>
-                    <li>
-                      <a href="project.html">portfolio</a>
-                    </li>
-                    <li>
-                      <a href="project-details.html">portfolio details</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">team</a>
-                  <ul>
-                    <li>
-                      <a href="team.html">team</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">blog</a>
-                  <ul>
-                    <li>
-                      <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">Blog details</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">others</a>
-                  <ul>
-                    <li>
-                      <a href="about.html">about</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                      <a href="faq.html">FAQs</a>
-                    </li>
-                    <li>
-                      <a href="404.html">404</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="contact.html">Contact</a>
+                  <Link to="/contact">CONTACT</Link>{" "}
                 </li>
               </ul>
-            </div>
+            </nav>
           </div>
           <div className="offcanvas__map">
             <iframe
@@ -131,8 +154,8 @@ const HeaderTwo = () => {
                     <i className="fa-solid fa-phone" />
                   </span>
                   <div>
-                    <a href="tel:+88014420420">+(1) 123 456 7890</a>
-                    <a href="tel:+88014420420">+(1) 098 765 4321</a>
+                    <Link to="tel:+88014420420">+(1) 123 456 7890</Link>
+                    <Link to="tel:+88014420420">+(1) 098 765 4321</Link>
                   </div>
                 </li>
                 <li>
@@ -140,10 +163,10 @@ const HeaderTwo = () => {
                     <i className="fa-solid fa-envelope" />
                   </span>
                   <div>
-                    <a href="mailto:info@driller.com">info@driller.com</a>
-                    <a href="mailto:info.example@driller.com">
+                    <Link to="mailto:info@driller.com">info@driller.com</Link>
+                    <Link to="mailto:info.example@driller.com">
                       info.example@driller.com
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>
@@ -151,19 +174,19 @@ const HeaderTwo = () => {
             <div className="footer__social-3">
               <ul>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-facebook-f" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-twitter" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-instagram" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -175,106 +198,106 @@ const HeaderTwo = () => {
       <header className="header__area  plr-90">
         <div className="header__inner inner-2">
           <div className="header__logo logo-2">
-            <a href="">
+            <Link to="/">
               <img src="/assets/imgs/logo/logo.png" alt="Site Logo" />
-            </a>
+            </Link>
           </div>
           <div className="header__menu">
             <nav className="main-menu">
               <ul>
                 <li className="has-dropdown">
-                  <a href="#">Home</a>
+                  <Link to="#">Home</Link>
                   <ul className="main-dropdown">
                     <li>
-                      <a href="index.html">home one</a>
+                      <Link to="/">home one</Link>
                     </li>
                     <li>
-                      <a href="index-2.html">home two</a>
+                      <Link to="/index-2">home two</Link>
                     </li>
                     <li>
-                      <a href="index-3.html">home three</a>
+                      <Link to="/index-3">home three</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li className="has-dropdown">
-                  <a href="#">Service</a>
+                  <Link to="#">Service</Link>
                   <ul className="main-dropdown">
                     <li>
-                      <a href="service-details.html">Service details</a>
+                      <Link to="/service-details">Service details</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="has-megamenu">
-                  <a href="#">pages</a>
+                  <Link to="#">pages</Link>
                   <div className="mega-menu">
                     <ul>
                       <li>home</li>
                       <li>
-                        <a href="index.html">home one</a>
+                        <Link to="/">home one</Link>
                       </li>
                       <li>
-                        <a href="index-2.html">home two</a>
+                        <Link to="/index-2">home two</Link>
                       </li>
                       <li>
-                        <a href="index-3.html">home three</a>
+                        <Link to="/index-3">home three</Link>
                       </li>
                     </ul>
                     <ul>
                       <li>service</li>
                       <li>
-                        <a href="service-details.html">Service details</a>
+                        <Link to="/service-details">Service details</Link>
                       </li>
                     </ul>
                     <ul>
                       <li>portfolio</li>
                       <li>
-                        <a href="project.html">portfolio</a>
+                        <Link to="/project">portfolio</Link>
                       </li>
                       <li>
-                        <a href="project-details.html">portfolio details</a>
+                        <Link to="/project-details">portfolio details</Link>
                       </li>
                     </ul>
                     <ul>
                       <li>Blog</li>
                       <li>
-                        <a href="blog.html">Blog</a>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="blog-details.html">Blog details</a>
+                        <Link to="/blog-details">Blog details</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="has-dropdown">
-                  <a href="#">blog</a>
+                  <Link to="#">blog</Link>
                   <ul className="main-dropdown">
                     <li className="has-dropdown">
-                      <a href="blog.html">Blog</a>
+                      <Link to="/blog">Blog</Link>
                       <ul className="sub-dropdown">
                         <li>
-                          <a href="blog-details.html">blog details</a>
+                          <Link to="/blog-details">blog details</Link>
                         </li>
                       </ul>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
           </div>
           <div className="header__others">
             <div className="header__offcanvas">
-              <a className="header__btn btn-rollover" href="contact.html">
+              <Link className="header__btn btn-rollover" to="/contact">
                 Get a quote <i className="fa-solid fa-arrow-right" />
-              </a>
+              </Link>
             </div>
             <div className="header__offcanvas db-mobile-icon">
-              <button className="menu_icon">
+              <button className="menu_icon" onClick={offCanvasControl}>
                 <img src="assets/imgs/icon/menu.png" alt="Menu Icon" />
               </button>
             </div>

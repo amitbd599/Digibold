@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FaqOne = () => {
   return (
@@ -21,7 +22,7 @@ const FaqOne = () => {
                   distinguish thiIn a free hours this when our{" "}
                 </p>
                 <div className="db-arrow-up">
-                  <a href="about.html">
+                  <Link to="/about">
                     <img
                       className="img"
                       src="assets/imgs/icon/arrow-xxl-2.png"
@@ -32,7 +33,7 @@ const FaqOne = () => {
                       src="assets/imgs/icon/arrow-xxl-2.png"
                       alt="Arrow Icon"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

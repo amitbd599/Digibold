@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogGroup = () => {
   return (
@@ -10,30 +11,30 @@ const BlogGroup = () => {
             <div className="col-lg-8">
               <div className="blog__item-inner">
                 <div className="blog__thumb-inner shine">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <img src="assets/imgs/inner/blog-01.jpg" alt="blog-img" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="blog__content-inner">
                   <ul className="blog__meta-inner">
                     <li>
-                      <a href="#">By admin</a>
+                      <Link to="#">By admin</Link>
                     </li>
                     <li>
-                      <a href="#">Category</a>
+                      <Link to="#">Category</Link>
                     </li>
                     <li>
-                      <a href="#">Comments (05)</a>
+                      <Link to="#">Comments (05)</Link>
                     </li>
                     <li>
-                      <a href="#">Share (05)</a>
+                      <Link to="#">Share (05)</Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h2 className="blog__title-inner">
                       Building brands that last with strategies that work
                     </h2>
-                  </a>
+                  </Link>
                   <p className="blog__dis-inner">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking
@@ -41,40 +42,40 @@ const BlogGroup = () => {
                     has a more-or-less normal distribution of letters, as
                     opposed
                   </p>
-                  <a
+                  <Link
                     className="blog__btn-inner btn-rollover"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     readmore <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="blog__item-inner">
                 <div className="blog__thumb-inner shine">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <img src="assets/imgs/inner/blog-02.jpg" alt="blog-img" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="blog__content-inner">
                   <ul className="blog__meta-inner">
                     <li>
-                      <a href="#">By admin</a>
+                      <Link to="#">By admin</Link>
                     </li>
                     <li>
-                      <a href="#">Category</a>
+                      <Link to="#">Category</Link>
                     </li>
                     <li>
-                      <a href="#">Comments (05)</a>
+                      <Link to="#">Comments (05)</Link>
                     </li>
                     <li>
-                      <a href="#">Share (05)</a>
+                      <Link to="#">Share (05)</Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h2 className="blog__title-inner">
                       Innovative solutions for the modern marketer
                     </h2>
-                  </a>
+                  </Link>
                   <p className="blog__dis-inner">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking
@@ -82,40 +83,40 @@ const BlogGroup = () => {
                     has a more-or-less normal distribution of letters, as
                     opposed
                   </p>
-                  <a
+                  <Link
                     className="blog__btn-inner btn-rollover"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     readmore <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="blog__item-inner">
                 <div className="blog__thumb-inner shine">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <img src="assets/imgs/inner/blog-03.jpg" alt="blog-img" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="blog__content-inner">
                   <ul className="blog__meta-inner">
                     <li>
-                      <a href="#">By admin</a>
+                      <Link to="#">By admin</Link>
                     </li>
                     <li>
-                      <a href="#">Category</a>
+                      <Link to="#">Category</Link>
                     </li>
                     <li>
-                      <a href="#">Comments (05)</a>
+                      <Link to="#">Comments (05)</Link>
                     </li>
                     <li>
-                      <a href="#">Share (05)</a>
+                      <Link to="#">Share (05)</Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h2 className="blog__title-inner">
                       Maximize you potential amplify your message
                     </h2>
-                  </a>
+                  </Link>
                   <p className="blog__dis-inner">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking
@@ -123,40 +124,40 @@ const BlogGroup = () => {
                     has a more-or-less normal distribution of letters, as
                     opposed
                   </p>
-                  <a
+                  <Link
                     className="blog__btn-inner btn-rollover"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     readmore <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="blog__item-inner">
                 <div className="blog__thumb-inner shine">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <img src="assets/imgs/inner/blog-04.jpg" alt="blog-img" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="blog__content-inner">
                   <ul className="blog__meta-inner">
                     <li>
-                      <a href="#">By admin</a>
+                      <Link to="#">By admin</Link>
                     </li>
                     <li>
-                      <a href="#">Category</a>
+                      <Link to="#">Category</Link>
                     </li>
                     <li>
-                      <a href="#">Comments (05)</a>
+                      <Link to="#">Comments (05)</Link>
                     </li>
                     <li>
-                      <a href="#">Share (05)</a>
+                      <Link to="#">Share (05)</Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h2 className="blog__title-inner">
                       Creating connections that convert to customers
                     </h2>
-                  </a>
+                  </Link>
                   <p className="blog__dis-inner">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking
@@ -164,12 +165,12 @@ const BlogGroup = () => {
                     has a more-or-less normal distribution of letters, as
                     opposed
                   </p>
-                  <a
+                  <Link
                     className="blog__btn-inner btn-rollover"
-                    href="blog-details.html"
+                    to="/blog-details"
                   >
                     readmore <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -189,23 +190,23 @@ const BlogGroup = () => {
                   <span className="blog__widget-title">Blog Categories</span>
                   <ul className="blog__category pt-30">
                     <li>
-                      <a href="blog.html">Web Development</a> <span>19</span>
+                      <Link to="/blog">Web Development</Link> <span>19</span>
                     </li>
                     <li>
-                      <a href="blog.html">Building Design</a> <span>05</span>
+                      <Link to="/blog">Building Design</Link> <span>05</span>
                     </li>
                     <li>
-                      <a href="blog.html">Architecture Design</a>{" "}
+                      <Link to="/blog">Architecture Design</Link>{" "}
                       <span>17</span>
                     </li>
                     <li>
-                      <a href="blog.html">Motion Design</a> <span>03</span>
+                      <Link to="/blog">Motion Design</Link> <span>03</span>
                     </li>
                     <li>
-                      <a href="blog.html">Graphics Design</a> <span>18</span>
+                      <Link to="/blog">Graphics Design</Link> <span>18</span>
                     </li>
                     <li>
-                      <a href="blog.html">Interior Design</a> <span>33</span>
+                      <Link to="/blog">Interior Design</Link> <span>33</span>
                     </li>
                   </ul>
                 </div>
@@ -214,69 +215,69 @@ const BlogGroup = () => {
                   <div className="blog__recent pt-30">
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-1.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-2.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-3.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-4.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div className="blog__widget">
                   <span className="blog__widget-title">Blog Categories</span>
                   <ul className="blog__tags pt-30">
-                    <a href="blog.html">Start shape</a>
-                    <a href="blog.html">Architecture</a>
-                    <a href="blog.html">Large</a>
-                    <a href="blog.html">Business</a>
-                    <a href="blog.html">Stretegy</a>
-                    <a href="blog.html">Item</a>
-                    <a href="blog.html">Bold</a>
-                    <a href="blog.html">Large Project</a>
+                    <Link to="/blog">Start shape</Link>
+                    <Link to="/blog">Architecture</Link>
+                    <Link to="/blog">Large</Link>
+                    <Link to="/blog">Business</Link>
+                    <Link to="/blog">Stretegy</Link>
+                    <Link to="/blog">Item</Link>
+                    <Link to="/blog">Bold</Link>
+                    <Link to="/blog">Large Project</Link>
                   </ul>
                 </div>
                 <div className="blog__widget">
@@ -294,21 +295,21 @@ const BlogGroup = () => {
             <div className="blog__pagination-wrap">
               <ul className="blog__pagination-list">
                 <li>
-                  <a href="#">1</a>
+                  <Link to="#">1</Link>
                 </li>
                 <li>
-                  <a href="#">2</a>
+                  <Link to="#">2</Link>
                 </li>
                 <li>
-                  <a href="#">3</a>
+                  <Link to="#">3</Link>
                 </li>
                 <li>
-                  <a href="#">4</a>
+                  <Link to="#">4</Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-solid fa-angles-right" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

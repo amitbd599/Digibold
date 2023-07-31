@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FaqTwo = () => {
   return (
@@ -17,9 +18,9 @@ const FaqTwo = () => {
                   jklhjh consectetur. Mi eu viverra purus in magna accumsan. Sed
                   quis seduk ornare aliquam urna.
                 </p>
-                <a className="db-btn-arrow" href="about.html">
+                <Link className="db-btn-arrow" to="/about">
                   Read More <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xxl-7 col-xl-7 col-xl-7">

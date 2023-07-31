@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterOne = () => {
   return (
@@ -32,9 +33,9 @@ const FooterOne = () => {
                     Conditions Terms of Use Ours feturesin Services ew Guests
                     LisitThe Team List Guests LisitThe Team List
                   </p>
-                  <a className="db-btn-arrow" href="about.html">
+                  <Link className="db-btn-arrow" to="/about">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
@@ -54,13 +55,15 @@ const FooterOne = () => {
                       <span>
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="tel:+88014420420">+88 014 420420</a>
+                      <Link to="tel:+88014420420">+88 014 420420</Link>
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="mailto:urcompany@mail.com">urcompany@mail.com</a>
+                      <Link to="mailto:urcompany@mail.com">
+                        urcompany@mail.com
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -70,16 +73,16 @@ const FooterOne = () => {
                   <h2 className="footer__title">More Servicve</h2>
                   <ul>
                     <li>
-                      <a href="about.html">Ui Design</a>
+                      <Link to="/about">Ui Design</Link>
                     </li>
                     <li>
-                      <a href="about.html">Ux Design</a>
+                      <Link to="/about">Ux Design</Link>
                     </li>
                     <li>
-                      <a href="about.html">Digital Marketing</a>
+                      <Link to="/about">Digital Marketing</Link>
                     </li>
                     <li>
-                      <a href="about.html">Video Editing</a>
+                      <Link to="/about">Video Editing</Link>
                     </li>
                   </ul>
                 </div>
@@ -111,19 +114,19 @@ const FooterOne = () => {
                   <div className="footer__social">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

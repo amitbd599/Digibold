@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -30,12 +31,12 @@ const Contact = () => {
                   <div className="contact__item">
                     <i className="fa-solid fa-envelope" />
                     <h4 className="title">Email</h4>
-                    <a href="mailto:danghoang87hl@gmail.com">
+                    <Link to="mailto:danghoang87hl@gmail.com">
                       danghoang87hl@gmail.com
-                    </a>
-                    <a href="mailto:trungkienspktnd@gamail.com">
+                    </Link>
+                    <Link to="mailto:trungkienspktnd@gamail.com">
                       trungkienspktnd@gamail.com
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-lg-6">

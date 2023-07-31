@@ -236,5 +236,112 @@
     border-radius: 5px;
     text-transform: capitalize;
   }
+}
 
+// New Scss File
+
+.offcanvas-navigation {
+  margin-bottom: 20px;
+  & > ul {
+    & > li {
+      &.menu-item-has-children {
+        & > .sub-menu {
+          height: 0;
+          visibility: hidden;
+          opacity: 0;
+          transition: 0.3s;
+        }
+
+        &.active {
+          & > .sub-menu {
+            height: 100%;
+            visibility: visible;
+            opacity: 1;
+
+            li a {
+              padding-left: 20px;
+              display: block;
+              width: 100%;
+              color: #fff;
+              border-top: 1px solid #ebebeb;
+              font-size: 15px;
+              line-height: 1.5;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  ul {
+    &.sub-menu {
+      transition: 0.3s;
+    }
+    li {
+      &.menu-item-has-children {
+        position: relative;
+        display: block;
+        a {
+          display: block;
+        }
+
+        &.active {
+          & > .menu-expand {
+            svg {
+              &:before {
+                transform: rotate(0);
+              }
+            }
+          }
+        }
+
+        .menu-expand {
+          position: absolute;
+          left: auto;
+          right: 46px;
+          top: 0;
+          width: 30px;
+          height: 50px;
+          line-height: 50px;
+          cursor: pointer;
+          text-align: center;
+          color: #fff;
+
+          // @media #{$xs,$xxs} {
+          //   right: 0;
+          // }
+
+          i {
+            display: block;
+            margin-top: 25px;
+            border-bottom: 1px solid;
+            position: relative;
+            width: 10px;
+            font-weight: 700;
+            transition: all 250ms ease-out;
+            &:before {
+              width: 100%;
+              content: "";
+              border-bottom: 1px solid;
+              display: block;
+              position: absolute;
+              top: 0;
+              transform: rotate(90deg);
+            }
+          }
+        }
+      }
+      a {
+        display: block;
+        width: 100%;
+        padding: 14px 0;
+        color: #fff;
+        border-top: 1px solid #ebebeb;
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 500;
+      }
+    }
+  }
 }

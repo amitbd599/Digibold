@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterThree = () => {
   return (
@@ -15,13 +16,13 @@ const FooterThree = () => {
                   </span>
                   <p>
                     Call us Today For your Free Quote - Your Agency <br />{" "}
-                    <a href="tel:(603)555-0123">(603) 555-0123</a>
+                    <Link to="tel:(603)555-0123">(603) 555-0123</Link>
                   </p>
                 </li>
                 <div>
-                  <a className="db-btn-primary" href="contact.html">
+                  <Link className="db-btn-primary" to="/contact">
                     <i className="fa-solid fa-shield" /> Free Touch Here
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -41,19 +42,19 @@ const FooterThree = () => {
                   <div className="footer__social-3">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -64,19 +65,19 @@ const FooterThree = () => {
                   <h2 className="footer__title">Quick links</h2>
                   <ul>
                     <li>
-                      <a href="about.html">About Us</a>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li>
-                      <a href="service-details.html">Service</a>
+                      <Link to="/service-details">Service</Link>
                     </li>
                     <li>
-                      <a href="contact.html">Contact Us</a>
+                      <Link to="/contact">Contact Us</Link>
                     </li>
                     <li>
-                      <a href="blog.html">Blog Post</a>
+                      <Link to="/blog">Blog Post</Link>
                     </li>
                     <li>
-                      <a href="about.html">Team Members</a>
+                      <Link to="/about">Team Members</Link>
                     </li>
                   </ul>
                 </div>
@@ -99,8 +100,8 @@ const FooterThree = () => {
                         <i className="fa-solid fa-phone" />
                       </span>
                       <div>
-                        <a href="tel:+88014420420">+(1) 123 456 7890</a>
-                        <a href="tel:+88014420420">+(1) 098 765 4321</a>
+                        <Link to="tel:+88014420420">+(1) 123 456 7890</Link>
+                        <Link to="tel:+88014420420">+(1) 098 765 4321</Link>
                       </div>
                     </li>
                     <li>
@@ -108,10 +109,12 @@ const FooterThree = () => {
                         <i className="fa-solid fa-envelope" />
                       </span>
                       <div>
-                        <a href="mailto:info@driller.com">info@driller.com</a>
-                        <a href="mailto:info.example@driller.com">
+                        <Link to="mailto:info@driller.com">
+                          info@driller.com
+                        </Link>
+                        <Link to="mailto:info.example@driller.com">
                           info.example@driller.com
-                        </a>
+                        </Link>
                       </div>
                     </li>
                   </ul>
@@ -122,52 +125,52 @@ const FooterThree = () => {
                   <div className="footer__title">Gallery posts</div>
                   <ul className="gallery">
                     <li>
-                      <a href="project.html">
+                      <Link to="/project">
                         <img
                           src="assets/imgs/blog/3/footer/1.png"
                           alt="Thumbnail"
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="project.html">
+                      <Link to="/project">
                         <img
                           src="assets/imgs/blog/3/footer/2.png"
                           alt="Thumbnail"
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="project.html">
+                      <Link to="/project">
                         <img
                           src="assets/imgs/blog/3/footer/3.png"
                           alt="Thumbnail"
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="project.html">
+                      <Link to="/project">
                         <img
                           src="assets/imgs/blog/3/footer/4.png"
                           alt="Thumbnail"
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="project.html">
+                      <Link to="/project">
                         <img
                           src="assets/imgs/blog/3/footer/5.png"
                           alt="Thumbnail"
                         />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="project.html">
+                      <Link to="/project.ht">
                         <img
                           src="assets/imgs/blog/3/footer/6.png"
                           alt="Thumbnail"
                         />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -188,10 +191,10 @@ const FooterThree = () => {
                   <div className="footer__menu-3">
                     <ul>
                       <li>
-                        <a href="about.html">Privacy Policy.</a>
+                        <Link to="/about">Privacy Policy.</Link>
                       </li>
                       <li>
-                        <a href="about.html">Terms Of Condition</a>
+                        <Link to="/about">Terms Of Condition</Link>
                       </li>
                     </ul>
                   </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutThree = () => {
   return (
@@ -27,7 +28,7 @@ const AboutThree = () => {
                   data-aos="fade-up"
                   data-aos-delay={600}
                 >
-                  <a className="about__arrowup" href="about.html">
+                  <Link className="about__arrowup" to="/about">
                     <img
                       className="img"
                       src="assets/imgs/home-2/arrow-up.svg"
@@ -38,7 +39,7 @@ const AboutThree = () => {
                       src="assets/imgs/home-2/arrow-up.svg"
                       alt="arrowup"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

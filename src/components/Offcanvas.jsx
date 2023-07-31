@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Offcanvas = () => {
   return (
@@ -21,79 +22,73 @@ const Offcanvas = () => {
             <div className="offcanvas-menu">
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <Link to="#">Home</Link>
                   <ul>
                     <li>
-                      <a href="index.html">home one</a>
+                      <Link to="/">home one</Link>
                     </li>
                     <li>
-                      <a href="index-2.html">home two</a>
+                      <Link to="/index-2">home two</Link>
                     </li>
                     <li>
-                      <a href="index-3.html">home three</a>
+                      <Link to="/index-3">home three</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <a href="#">Service</a>
+                  <Link to="#">Service</Link>
                   <ul>
                     <li>
-                      <a href="service-details.html">Service details</a>
+                      <Link to="/service-details">Service details</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">portfolio</a>
+                  <Link to="#">portfolio</Link>
                   <ul>
                     <li>
-                      <a href="project.html">portfolio</a>
+                      <Link to="/project">portfolio</Link>
                     </li>
                     <li>
-                      <a href="project-details.html">portfolio details</a>
+                      <Link to="/project-details">portfolio details</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">team</a>
+                  <Link to="#">team</Link>
                   <ul>
                     <li>
-                      <a href="team.html">team</a>
+                      <Link to="/team">team</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">blog</a>
+                  <Link to="#">blog</Link>
                   <ul>
                     <li>
-                      <a href="blog.html">Blog</a>
+                      <Link to="/blog">Blog</Link>
                     </li>
                     <li>
-                      <a href="blog-details.html">Blog details</a>
+                      <Link to="/blog-details">Blog details</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#">others</a>
+                  <Link to="#">others</Link>
                   <ul>
                     <li>
-                      <a href="about.html">about</a>
+                      <Link to="/about">about</Link>
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                      <a href="faq.html">FAQs</a>
-                    </li>
-                    <li>
-                      <a href="404.html">404</a>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
@@ -121,8 +116,8 @@ const Offcanvas = () => {
                     <i className="fa-solid fa-phone" />
                   </span>
                   <div>
-                    <a href="tel:+88014420420">+(1) 123 456 7890</a>
-                    <a href="tel:+88014420420">+(1) 098 765 4321</a>
+                    <Link to="tel:+88014420420">+(1) 123 456 7890</Link>
+                    <Link to="tel:+88014420420">+(1) 098 765 4321</Link>
                   </div>
                 </li>
                 <li>
@@ -130,10 +125,10 @@ const Offcanvas = () => {
                     <i className="fa-solid fa-envelope" />
                   </span>
                   <div>
-                    <a href="mailto:info@driller.com">info@driller.com</a>
-                    <a href="mailto:info.example@driller.com">
+                    <Link to="mailto:info@driller.com">info@driller.com</Link>
+                    <Link to="mailto:info.example@driller.com">
                       info.example@driller.com
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>
@@ -141,19 +136,19 @@ const Offcanvas = () => {
             <div className="footer__social-3">
               <ul>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-facebook-f" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-twitter" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-instagram" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

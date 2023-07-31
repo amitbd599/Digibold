@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogDetails = () => {
   return (
@@ -15,16 +16,16 @@ const BlogDetails = () => {
                 <div className="blog__content-inner">
                   <ul className="blog__meta-inner">
                     <li>
-                      <a href="blog.html">By admin</a>
+                      <Link to="/blog">By admin</Link>
                     </li>
                     <li>
-                      <a href="blog.html">Category</a>
+                      <Link to="/blog">Category</Link>
                     </li>
                     <li>
-                      <a href="blog.html">Comments (05)</a>
+                      <Link to="/blog">Comments (05)</Link>
                     </li>
                     <li>
-                      <a href="blog.html">Share (05)</a>
+                      <Link to="/blog">Share (05)</Link>
                     </li>
                   </ul>
                   <h2 className="blog__title-inner">
@@ -112,19 +113,19 @@ const BlogDetails = () => {
                       <span>Tags: </span>
                       <ul className="blog__social">
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-dribbble" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -187,23 +188,23 @@ const BlogDetails = () => {
                   <span className="blog__widget-title">Blog Categories</span>
                   <ul className="blog__category pt-30">
                     <li>
-                      <a href="blog.html">Web Development</a> <span>19</span>
+                      <Link to="/blog">Web Development</Link> <span>19</span>
                     </li>
                     <li>
-                      <a href="blog.html">Building Design</a> <span>05</span>
+                      <Link to="/blog">Building Design</Link> <span>05</span>
                     </li>
                     <li>
-                      <a href="blog.html">Architecture Design</a>{" "}
+                      <Link to="/blog">Architecture Design</Link>{" "}
                       <span>17</span>
                     </li>
                     <li>
-                      <a href="blog.html">Motion Design</a> <span>03</span>
+                      <Link to="/blog">Motion Design</Link> <span>03</span>
                     </li>
                     <li>
-                      <a href="blog.html">Graphics Design</a> <span>18</span>
+                      <Link to="/blog">Graphics Design</Link> <span>18</span>
                     </li>
                     <li>
-                      <a href="blog.html">Interior Design</a> <span>33</span>
+                      <Link to="/blog">Interior Design</Link> <span>33</span>
                     </li>
                   </ul>
                 </div>
@@ -212,69 +213,69 @@ const BlogDetails = () => {
                   <div className="blog__recent pt-30">
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-1.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-2.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-3.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="blog__ritem">
                       <div className="blog__rcontent">
-                        <a href="blog.html">
+                        <Link to="/blog">
                           <h4 className="blog__recenttitle">
                             Business information about any of kind their{" "}
                           </h4>
-                        </a>
+                        </Link>
                         <small>January 17 2023</small>
                       </div>
-                      <a href="blog.html">
+                      <Link to="/blog">
                         <img src="assets/imgs/inner/r-4.jpg" alt="r1" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <div className="blog__widget">
                   <span className="blog__widget-title">Blog Categories</span>
                   <ul className="blog__tags pt-30">
-                    <a href="blog.html">Start shape</a>
-                    <a href="blog.html">Architecture</a>
-                    <a href="blog.html">Large</a>
-                    <a href="blog.html">Business</a>
-                    <a href="blog.html">Stretegy</a>
-                    <a href="blog.html">Item</a>
-                    <a href="blog.html">Bold</a>
-                    <a href="blog.html">Large Project</a>
+                    <Link to="/blog">Start shape</Link>
+                    <Link to="/blog">Architecture</Link>
+                    <Link to="/blog">Large</Link>
+                    <Link to="/blog">Business</Link>
+                    <Link to="/blog">Strategy</Link>
+                    <Link to="/blog">Item</Link>
+                    <Link to="/blog">Bold</Link>
+                    <Link to="/blog">Large Project</Link>
                   </ul>
                 </div>
                 <div className="blog__widget">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogOne = () => {
   return (
@@ -26,9 +27,9 @@ const BlogOne = () => {
                 >
                   <div className="blog__thumb">
                     <div className="shine">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <img src="assets/imgs/blog/1.png" alt="Thumbnail" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="date">
                       16 <br /> March
@@ -36,24 +37,24 @@ const BlogOne = () => {
                   </div>
                   <ul className="blog__meta">
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-regular fa-comments" /> Comments (05)
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-regular fa-user" /> By admin
-                      </a>
+                      </Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h4 className="blog__title">
                       The standard chunk of Lorem Ipsum Our Company
                     </h4>
-                  </a>
-                  <a className="db-btn-arrow" href="blog-details.html">
+                  </Link>
+                  <Link className="db-btn-arrow" to="/blog-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </article>
                 <article
                   className="blog__item"
@@ -62,9 +63,9 @@ const BlogOne = () => {
                 >
                   <div className="blog__thumb">
                     <div className="shine">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <img src="assets/imgs/blog/2.png" alt="Thumbnail" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="date">
                       16 <br /> March
@@ -72,24 +73,24 @@ const BlogOne = () => {
                   </div>
                   <ul className="blog__meta">
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-comments" /> Comments (05)
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-user" /> By admin
-                      </a>
+                      </Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h4 className="blog__title">
                       The standard chunk of Lorem Ipsum Our Company
                     </h4>
-                  </a>
-                  <a className="db-btn-arrow" href="blog-details.html">
+                  </Link>
+                  <Link className="db-btn-arrow" to="/blog-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </article>
                 <article
                   className="blog__item"
@@ -98,9 +99,9 @@ const BlogOne = () => {
                 >
                   <div className="blog__thumb">
                     <div className="shine">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <img src="assets/imgs/blog/3.png" alt="Thumbnail" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="date">
                       16 <br /> March
@@ -108,24 +109,24 @@ const BlogOne = () => {
                   </div>
                   <ul className="blog__meta">
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-comments" /> Comments (05)
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="">
+                      <Link to="#">
                         <i className="fa-regular fa-user" /> By admin
-                      </a>
+                      </Link>
                     </li>
                   </ul>
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <h4 className="blog__title">
                       The standard chunk of Lorem Ipsum Our Company
                     </h4>
-                  </a>
-                  <a className="db-btn-arrow" href="blog-details.html">
+                  </Link>
+                  <Link className="db-btn-arrow" to="/blog-details">
                     Read More <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </article>
               </div>
             </div>

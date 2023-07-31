@@ -72,8 +72,8 @@ const WhoWeAreOne = () => {
             <div className="col-xxl-7 col-xl-7 col-lg-6">
               <div
                 className="who__right"
-                data-aos="fade-left"
-                data-aos-delay={1000}
+                // data-aos="fade-left"
+                // data-aos-delay={1000}
               >
                 <div className="main-img">
                   <img src="assets/imgs/who/1.png" alt="Image" />

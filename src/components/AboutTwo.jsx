@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutTwo = () => {
   return (
@@ -10,16 +11,16 @@ const AboutTwo = () => {
             <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
               <div className="about__imgs-6">
                 <div className="image-1">
-                  <img src="assets/imgs/about/6/1.jpg" alt="Image" />
-                  <a
+                  <img src="assets/imgs/about/6/1.jpg" alt="digibold" />
+                  <Link
                     className="play popup-link"
-                    href="https://www.youtube.com/watch?v=FYpsf0ACkmI"
+                    to="https://www.youtube.com/watch?v=FYpsf0ACkmI"
                   >
                     <i className="fa-solid fa-play" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="image-2">
-                  <img src="assets/imgs/about/6/2.jpg" alt="Image" />
+                  <img src="assets/imgs/about/6/2.jpg" alt="digibold" />
                 </div>
                 <div className="bell">
                   <span>
@@ -56,9 +57,9 @@ const AboutTwo = () => {
                   <li>making this the first true generator on the Internet</li>
                   <li>Creative this the first true generator on the designe</li>
                 </ul>
-                <a className="db-btn-arrow" href="">
+                <Link className="db-btn-arrow" to="#">
                   Read More <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogTwo = () => {
   return (
@@ -23,24 +24,24 @@ const BlogTwo = () => {
                 data-aos-delay={300}
               >
                 <div className="blog__thumb-2">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <img src="assets/imgs/home-2/blog-1.jpg" alt="thumb" />
-                  </a>
+                  </Link>
                   <span className="blog__meta-2">December 23,2023</span>
                 </div>
                 <div className="blog__content-2">
-                  <a className="blog__title-2" href="blog-details.html">
+                  <Link className="blog__title-2" to="/blog-details">
                     Social Media Management
-                  </a>
+                  </Link>
                   <p>
                     It is a long established fact that a reader will be
                     distracted byi the readable desi content of a page when
                     looking at its layout
                   </p>
-                  <a className="blog__btn-2" href="blog-details.html">
+                  <Link className="blog__btn-2" to="/blog-details">
                     Read more{" "}
                     <img src="assets/imgs/home-2/arrow-down.png" alt="thumb" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,24 +52,24 @@ const BlogTwo = () => {
                 data-aos-delay={300}
               >
                 <div className="blog__thumb-2">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <img src="assets/imgs/home-2/blog-2.jpg" alt="thumb" />
-                  </a>
+                  </Link>
                   <span className="blog__meta-2">December 23,2023</span>
                 </div>
                 <div className="blog__content-2">
-                  <a className="blog__title-2" href="blog-details.html">
+                  <Link className="blog__title-2" to="/blog-details">
                     Environmental Design digital
-                  </a>
+                  </Link>
                   <p>
                     It is a long established fact that a reader will be
                     distracted byi the readable desi content of a page when
                     looking at its layout
                   </p>
-                  <a className="blog__btn-2" href="blog-details.html">
+                  <Link className="blog__btn-2" to="/blog-details">
                     Read more{" "}
                     <img src="assets/imgs/home-2/arrow-down.png" alt="thumb" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 const AboutOne = () => {
   return (
     <>
@@ -11,16 +12,16 @@ const AboutOne = () => {
             <div className="col-xxl-6 col-xl-6 col-xl-6 col-md-6">
               <div className="about__imgs" data-aos="fade-up">
                 <div className="image-1">
-                  <img src="assets/imgs/about/1.png" alt="Image" />
-                  <a
+                  <img src="assets/imgs/about/1.png" alt="digibold" />
+                  <Link
                     className="play popup-link"
-                    href="https://www.youtube.com/watch?v=FYpsf0ACkmI"
+                    to="https://www.youtube.com/watch?v=FYpsf0ACkmI"
                   >
                     <i className="fa-solid fa-play" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="image-2">
-                  <img src="assets/imgs/about/2.png" alt="Image" />
+                  <img src="assets/imgs/about/2.png" alt="digibold" />
                 </div>
                 <div className="bell">
                   <span>
@@ -70,9 +71,9 @@ const AboutOne = () => {
                   <li>making this the first true generator on the Internet</li>
                   <li>Creative this the first true generator on the designe</li>
                 </ul>
-                <a className="db-btn-arrow" href="about.html">
+                <Link className="db-btn-arrow" to="/about">
                   Read More <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceDetails = () => {
   return (
@@ -10,7 +11,7 @@ const ServiceDetails = () => {
             <div className="row">
               <div className="col-xxl-6 col-xl-6 col-lg-6">
                 <div className="img">
-                  <img src="assets/imgs/service/details/1.jpg" alt="Image" />
+                  <img src="assets/imgs/service/details/1.jpg" alt="digibold" />
                 </div>
               </div>
               <div className="col-xxl-6 col-xl-6 col-lg-6">
@@ -31,9 +32,9 @@ const ServiceDetails = () => {
                       management operations.
                     </li>
                   </ul>
-                  <a className="db-btn-primary btn-rollover" href="about.html">
+                  <Link className="db-btn-primary btn-rollover" to="/about">
                     Get started <i className="fa-solid fa-arrow-right" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -80,7 +81,7 @@ const ServiceDetails = () => {
               </div>
               <div className="col-xxl-6 col-xl-6 col-lg-6">
                 <div className="img">
-                  <img src="assets/imgs/service/details/2.jpg" alt="Image" />
+                  <img src="assets/imgs/service/details/2.jpg" alt="digibold" />
                 </div>
               </div>
               <div className="col-xxl-12">
@@ -113,13 +114,16 @@ const ServiceDetails = () => {
             <div className="row">
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="more-service__item">
-                  <a href="">
-                    <img src="assets/imgs/service/details/3.jpg" alt="Image" />
-                  </a>
+                  <Link to="#">
+                    <img
+                      src="assets/imgs/service/details/3.jpg"
+                      alt="digibold"
+                    />
+                  </Link>
                   <div className="more-service__content">
-                    <a href="">
+                    <Link to="#">
                       <h3 className="more-service__title">Marketing</h3>
-                    </a>
+                    </Link>
                     <p>
                       How to Solve your Mobile in Development Managemetn System
                     </p>
@@ -128,13 +132,16 @@ const ServiceDetails = () => {
               </div>
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="more-service__item">
-                  <a href="">
-                    <img src="assets/imgs/service/details/4.jpg" alt="Image" />
-                  </a>
+                  <Link to="#">
+                    <img
+                      src="assets/imgs/service/details/4.jpg"
+                      alt="digibold"
+                    />
+                  </Link>
                   <div className="more-service__content">
-                    <a href="">
+                    <Link to="#">
                       <h3 className="more-service__title">Advertising</h3>
-                    </a>
+                    </Link>
                     <p>
                       How to Solve your Mobile in Development Managemetn System
                     </p>
@@ -143,13 +150,16 @@ const ServiceDetails = () => {
               </div>
               <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="more-service__item">
-                  <a href="">
-                    <img src="assets/imgs/service/details/5.jpg" alt="Image" />
-                  </a>
+                  <Link to="#">
+                    <img
+                      src="assets/imgs/service/details/5.jpg"
+                      alt="digibold"
+                    />
+                  </Link>
                   <div className="more-service__content">
-                    <a href="">
+                    <Link to="#">
                       <h3 className="more-service__title">Content Marketing</h3>
-                    </a>
+                    </Link>
                     <p>
                       How to Solve your Mobile in Development Managemetn System
                     </p>

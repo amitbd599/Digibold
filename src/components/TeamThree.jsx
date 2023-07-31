@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 const TeamThree = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const TeamThree = () => {
         </div>
         <div className="team__list-3 plr-100">
           <div className="swiper team__slider-3">
-            <div className="swiper-wrapper">
+            <div className="swiper-wrappers">
               <Swiper
                 slidesPerView={4}
                 spaceBetween={20}
@@ -37,34 +38,31 @@ const TeamThree = () => {
                     data-aos-delay={200}
                   >
                     <div className="team__image-3">
-                      <a href="about.html">
-                        <img
-                          src="assets/imgs/team/3/1.png"
-                          alt="Member Image"
-                        />
-                      </a>
+                      <Link to="/about">
+                        <img src="assets/imgs/team/3/1.png" alt="digibold" />
+                      </Link>
                     </div>
                     <div className="team__content-3">
                       <ul className="social-media">
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                      <a href="about.html">
+                      <Link to="/about">
                         <h5 className="team__title-3">Annette Black</h5>
-                      </a>
+                      </Link>
                       <p>Finance Assistant</p>
                     </div>
                   </div>
@@ -76,34 +74,31 @@ const TeamThree = () => {
                     data-aos-delay={400}
                   >
                     <div className="team__image-3">
-                      <a href="about.html">
-                        <img
-                          src="assets/imgs/team/3/2.png"
-                          alt="Member Image"
-                        />
-                      </a>
+                      <Link to="/about">
+                        <img src="assets/imgs/team/3/2.png" alt="digibold" />
+                      </Link>
                     </div>
                     <div className="team__content-3">
                       <ul className="social-media">
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                      <a href="about.html">
+                      <Link to="/about">
                         <h5 className="team__title-3">Christaine Eve</h5>
-                      </a>
+                      </Link>
                       <p> Founder &amp; CEO </p>
                     </div>
                   </div>
@@ -115,34 +110,31 @@ const TeamThree = () => {
                     data-aos-delay={600}
                   >
                     <div className="team__image-3">
-                      <a href="about.html">
-                        <img
-                          src="assets/imgs/team/3/3.png"
-                          alt="Member Image"
-                        />
-                      </a>
+                      <Link to="/about">
+                        <img src="assets/imgs/team/3/3.png" alt="digibold" />
+                      </Link>
                     </div>
                     <div className="team__content-3">
                       <ul className="social-media">
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                      <a href="about.html">
+                      <Link to="/about">
                         <h5 className="team__title-3">Annette Black</h5>
-                      </a>
+                      </Link>
                       <p>Finance Assistant</p>
                     </div>
                   </div>
@@ -154,34 +146,31 @@ const TeamThree = () => {
                     data-aos-delay={800}
                   >
                     <div className="team__image-3">
-                      <a href="about.html">
-                        <img
-                          src="assets/imgs/team/3/4.png"
-                          alt="Member Image"
-                        />
-                      </a>
+                      <Link to="/about">
+                        <img src="assets/imgs/team/3/4.png" alt="digibold" />
+                      </Link>
                     </div>
                     <div className="team__content-3">
                       <ul className="social-media">
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                      <a href="about.html">
+                      <Link to="/about">
                         <h5 className="team__title-3">Jhon Adam</h5>
-                      </a>
+                      </Link>
                       <p>Lead Developer</p>
                     </div>
                   </div>
@@ -193,34 +182,31 @@ const TeamThree = () => {
                     data-aos-delay={200}
                   >
                     <div className="team__image-3">
-                      <a href="about.html">
-                        <img
-                          src="assets/imgs/team/3/1.png"
-                          alt="Member Image"
-                        />
-                      </a>
+                      <Link to="/about">
+                        <img src="assets/imgs/team/3/1.png" alt="digibold" />
+                      </Link>
                     </div>
                     <div className="team__content-3">
                       <ul className="social-media">
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                      <a href="about.html">
+                      <Link to="/about">
                         <h5 className="team__title-3">Annette Black</h5>
-                      </a>
+                      </Link>
                       <p>Finance Assistant</p>
                     </div>
                   </div>
@@ -232,34 +218,31 @@ const TeamThree = () => {
                     data-aos-delay={200}
                   >
                     <div className="team__image-3">
-                      <a href="about.html">
-                        <img
-                          src="assets/imgs/team/3/1.png"
-                          alt="Member Image"
-                        />
-                      </a>
+                      <Link to="/about">
+                        <img src="assets/imgs/team/3/1.png" alt="digibold" />
+                      </Link>
                     </div>
                     <div className="team__content-3">
                       <ul className="social-media">
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                      <a href="about.html">
+                      <Link to="/about">
                         <h5 className="team__title-3">Annette Black</h5>
-                      </a>
+                      </Link>
                       <p>Finance Assistant</p>
                     </div>
                   </div>
@@ -271,34 +254,31 @@ const TeamThree = () => {
                     data-aos-delay={400}
                   >
                     <div className="team__image-3">
-                      <a href="about.html">
-                        <img
-                          src="assets/imgs/team/3/2.png"
-                          alt="Member Image"
-                        />
-                      </a>
+                      <Link to="/about">
+                        <img src="assets/imgs/team/3/2.png" alt="digibold" />
+                      </Link>
                     </div>
                     <div className="team__content-3">
                       <ul className="social-media">
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
-                      <a href="about.html">
+                      <Link to="/about">
                         <h5 className="team__title-3">Christaine Eve</h5>
-                      </a>
+                      </Link>
                       <p> Founder &amp; CEO </p>
                     </div>
                   </div>

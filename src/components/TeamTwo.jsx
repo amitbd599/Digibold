@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamTwo = () => {
   return (
@@ -22,32 +23,32 @@ const TeamTwo = () => {
             >
               <div className="team__thumb-2">
                 <div className="shine">
-                  <a href="about.html">
+                  <Link to="/about">
                     <img src="assets/imgs/home-2/team-1.png" alt="thumb" />
-                  </a>
+                  </Link>
                 </div>
                 <ul className="team__social-2">
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-facebook-f" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-twitter" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="team__content-2">
-                <a href="about.html">
+                <Link to="/about">
                   <h3 className="team__name">Ralph Edwards</h3>
-                </a>
+                </Link>
                 <p className="team__post">Merketing Department</p>
               </div>
             </div>
@@ -58,32 +59,32 @@ const TeamTwo = () => {
             >
               <div className="team__thumb-2">
                 <div className="shine">
-                  <a href="about.html">
+                  <Link to="/about">
                     <img src="assets/imgs/home-2/team-2.png" alt="thumb" />
-                  </a>
+                  </Link>
                 </div>
                 <ul className="team__social-2">
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-facebook-f" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-twitter" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="team__content-2">
-                <a href="about.html">
+                <Link to="/about">
                   <h3 className="team__name">Annette Black</h3>
-                </a>
+                </Link>
                 <p className="team__post">Development Department</p>
               </div>
             </div>
@@ -94,32 +95,32 @@ const TeamTwo = () => {
             >
               <div className="team__thumb-2">
                 <div className="shine">
-                  <a href="about.html">
+                  <Link to="/about">
                     <img src="assets/imgs/home-2/team-3.png" alt="thumb" />
-                  </a>
+                  </Link>
                 </div>
                 <ul className="team__social-2">
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-facebook-f" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-twitter" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="team__content-2">
-                <a href="about.html">
+                <Link to="/about">
                   <h3 className="team__name">Savannah Nguyen</h3>
-                </a>
+                </Link>
                 <p className="team__post">Design Department</p>
               </div>
             </div>

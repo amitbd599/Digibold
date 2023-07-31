@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HeroOne = () => {
   return (
@@ -9,23 +10,23 @@ const HeroOne = () => {
           <div className="hero__top">
             <h1 className="hero__title cxufadeUp">
               Making your <br />{" "}
-              <a
+              <Link
                 className="popup-link"
-                href="https://www.youtube.com/watch?v=FYpsf0ACkmI"
+                to="https://www.youtube.com/watch?v=FYpsf0ACkmI"
               >
                 {" "}
                 <span>
                   <i className="fa-solid fa-play" />
                 </span>
-              </a>{" "}
+              </Link>{" "}
               vision reality
             </h1>
             <div className="hero__contact cxufadeUp2">
-              <a href="about.html">
+              <Link to="/about">
                 <span>
                   <i className="fa-solid fa-arrow-right" />
                 </span>
-              </a>
+              </Link>
               <div className="text">
                 <p>Get in Touch</p>
               </div>
