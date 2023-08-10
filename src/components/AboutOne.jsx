@@ -54,7 +54,7 @@ const AboutOne = () => {
                 data-aos="fade-up"
                 data-aos-delay={500}
               >
-                <h2 className="sec-subtitle">
+                <h2 className="sec-subtitle heading-animation">
                   ABOUT US <span>About Us</span>
                 </h2>
                 <h3 className="sec-title">

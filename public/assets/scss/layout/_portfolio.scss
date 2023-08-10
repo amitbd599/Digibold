@@ -4,8 +4,23 @@
       background-color: var(--secondary);
 
       .sec-title-wrap {
+        margin: 0 50px;
         text-align: center;
         padding-bottom: 50px;
+
+        @media #{$sm} {
+          padding-bottom: 20px;
+        }
+      }
+
+      .sec-subtitle {
+        color: var(--yellow);
+      }
+
+      .sec-title br {
+        @media #{$sm} {
+          display: none;
+        }
       }
     }
 
@@ -52,7 +67,13 @@
 
   &__slider {
     &-4 {
-      padding-bottom: 200px;
+      .swiper {
+        padding-bottom: 200px;
+      }
+
+      @media #{$sm} {
+        padding-bottom: 120px;
+      }
     }
   }
 

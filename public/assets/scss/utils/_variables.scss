@@ -41,40 +41,43 @@
   
 **********************************************/
 
-
 /*----------------------------------------*/
 /*  01. VARIBALES DECLARARION
 /*----------------------------------------*/
 :root {
   // Colors
-  --primary: #22F55D;
-  --secondary: #0E1E2A;
-
+  --primary: #22f55d;
+  --secondary: #0e1e2a;
 
   --white: #fff;
-  --white-2: #E3E3E3;
+  --white-2: #e3e3e3;
 
   --black: #000;
   --black-2: #252525;
-  --black-3: #1F242C;
-  --black-4: #67687A;
-  --black-5: #2B2B5E;
+  --black-3: #1f242c;
+  --black-4: #67687a;
+  --black-5: #2b2b5e;
 
   --gray: #616161;
-  --gray-2: #F4F5FA;
-  --gray-3: #333F4D;
-  --gray-4: #82828A;
-  --gray-5: #3C4958;
+  --gray-2: #f4f5fa;
+  --gray-3: #333f4d;
+  --gray-4: #82828a;
+  --gray-5: #3c4958;
   --gray-6: #757474;
 
-  --blue: #0058AA;
-  --blue-2: #064BB5;
+  --blue: #0058aa;
+  --blue-2: #064bb5;
 
-  --yellow: #B8FB5E;
-  --yellow-2: #D8FF36;
-
+  --yellow: #b8fb5e;
+  --yellow-2: #d8ff36;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 // Download Fonts
 // @font-face {
@@ -83,23 +86,17 @@
 //   font-weight: 300;
 // }
 
-
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 // Font Family
-$font_barlow: 'Barlow', sans-serif;
-
-
+$font_barlow: "Barlow", sans-serif;
 
 // Responsive Variable
-$xxxl: '(min-width: 1920px)';
-$xxl: '(max-width: 1919px)';
-$xl: '(max-width: 1399px)';
-$lg: '(max-width: 1199px)';
-$md: '(max-width: 991px)';
-$sm: '(max-width: 767px)';
-$xs: '(max-width: 574px)';
+$xxxl: "(min-width: 1920px)";
+$xxl: "(max-width: 1919px)";
+$xl: "(max-width: 1399px)";
+$lg: "(max-width: 1199px)";
+$md: "(max-width: 991px)";
+$sm: "(max-width: 767px)";
+$xs: "(max-width: 574px)";

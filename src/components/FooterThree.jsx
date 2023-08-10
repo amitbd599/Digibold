@@ -29,7 +29,7 @@ const FooterThree = () => {
           </div>
           <div className="footer__widgets-3">
             <div className="row">
-              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                 <div className="footer__logo-3">
                   <img
                     src="assets/imgs/logo/logo-light.png"
@@ -60,7 +60,7 @@ const FooterThree = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                 <div className="footer__link-3">
                   <h2 className="footer__title">Quick links</h2>
                   <ul>
@@ -82,7 +82,7 @@ const FooterThree = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                 <div className="footer__address-3">
                   <h2 className="footer__title">Contact now</h2>
                   <ul>
@@ -120,7 +120,7 @@ const FooterThree = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+              <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                 <div className="footer__gallery-3">
                   <div className="footer__title">Gallery posts</div>
                   <ul className="gallery">

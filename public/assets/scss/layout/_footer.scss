@@ -142,6 +142,7 @@
         top: 0;
         border-radius: 5px;
         background-color: rgba(6, 75, 181, 0.9);
+        mix-blend-mode: multiply;
       }
 
       .title {
@@ -224,6 +225,48 @@
 
       p {
         color: var(--white-2);
+      }
+    }
+  }
+
+  &__rblog-4 {
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 80px auto;
+
+    @media #{$lg} {
+      padding-left: 80px;
+    }
+
+    @media #{$md} {
+      padding-left: 30px;
+    }
+
+    @media #{$sm} {
+      padding-left: 0;
+    }
+  }
+
+  &__rcontent-4 {
+    p {
+      font-weight: 500;
+      margin-bottom: 5px;
+
+      i {
+        font-size: 14px;
+        margin-right: 5px;
+        color: var(--yellow);
+      }
+    }
+    h3 {
+      color: var(--white);
+      font-family: $font_barlow;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.3;
+
+      @media #{$xl} {
+        font-size: 18px;
       }
     }
   }

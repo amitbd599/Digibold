@@ -20,7 +20,7 @@ const BlogTwo = () => {
             <div className="col-md-6">
               <div
                 className="blog__item-2"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-delay={300}
               >
                 <div className="blog__thumb-2">
@@ -48,7 +48,7 @@ const BlogTwo = () => {
             <div className="col-md-6">
               <div
                 className="blog__item-2"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-delay={300}
               >
                 <div className="blog__thumb-2">

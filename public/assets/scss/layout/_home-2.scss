@@ -73,6 +73,8 @@ GALLARY AREA 2
       @media #{$xl} {
         padding-top: 80px;
         padding-bottom: 170px;
+        padding-right: 15px;
+        padding-left: 15px;
       }
 
       @media #{$md} {
@@ -152,13 +154,12 @@ GALLARY AREA 2
       object-fit: cover;
 
       @media #{$sm} {
-        width: 50%;
+        width: 100%;
       }
-
-      &:last-child {
-        @media #{$xl} {
-          display: none;
-        }
+    }
+    a:last-child {
+      @media #{$xl} {
+        display: none;
       }
     }
   }
@@ -243,6 +244,10 @@ TEXT SLIDER AREA 2
     .swiper-wrapper {
       transition-timing-function: linear;
     }
+
+    .swiper-slide {
+      width: auto;
+    }
   }
 
   &__text1 {
@@ -256,7 +261,7 @@ TEXT SLIDER AREA 2
       font-size: 40px;
 
       @media #{$xl} {
-        font-size: 25px;
+        font-size: 30px;
       }
 
       span {
@@ -366,18 +371,34 @@ TEXT SLIDER AREA 2
   &__wrapper {
     // padding-top: 80px;
     .swiper-wrapper {
-      padding-top: 210px;
       margin-top: -135px;
+      padding-top: 210px;
     }
     .swiper-button-prev {
-      top: 40px;
-      right: 130px;
       left: auto;
+      right: 130px;
+      top: 40px;
+      @media #{$md} {
+        top: 78px;
+      }
+      @media #{$sm} {
+        left: 10px;
+        right: auto;
+        top: 110px;
+      }
     }
     .swiper-button-next {
-      top: 40px;
-      right: 28px;
       left: auto;
+      right: 28px;
+      top: 40px;
+      @media #{$md} {
+        top: 78px;
+      }
+      @media #{$sm} {
+        left: 84px;
+        right: auto;
+        top: 110px;
+      }
     }
   }
 
@@ -824,11 +845,13 @@ SERVICE AREA 2
       margin-top: -175px;
 
       @media #{$md} {
-        margin-top: 60px;
+        margin-top: 0;
+        margin-bottom: 60px;
       }
 
       @media #{$sm} {
         margin-top: 0;
+        margin-bottom: 60px;
       }
 
       form {
@@ -852,7 +875,8 @@ SERVICE AREA 2
         }
 
         .submit {
-          background: var(--blue);
+          background: var(--blue) !important;
+          color: #fff !important;
         }
       }
     }
@@ -1350,6 +1374,7 @@ ABOUT AREA 2
       @media #{$sm} {
         margin-top: 0;
         margin-left: 0;
+        display: none;
       }
 
       &.db-arrow-up {

@@ -73,6 +73,12 @@ const HeaderThree = () => {
                     <li>
                       <Link to="/index-3">home three</Link>
                     </li>
+                    <li>
+                      <Link to="/index-4">home Four</Link>
+                    </li>
+                    <li>
+                      <Link to="/index-5">home Five</Link>
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -99,6 +105,12 @@ const HeaderThree = () => {
                       </li>
                       <li>
                         <Link to="/index-3">home three</Link>
+                      </li>
+                      <li>
+                        <Link to="/index-4">home Four</Link>
+                      </li>
+                      <li>
+                        <Link to="/index-5">home Five</Link>
                       </li>
                     </ul>
                     <ul>
@@ -205,6 +217,12 @@ const HeaderThree = () => {
                     </li>
                     <li>
                       <Link to="/index-3">Home Three</Link>
+                    </li>
+                    <li>
+                      <Link to="/index-4">home Four</Link>
+                    </li>
+                    <li>
+                      <Link to="/index-5">home Five</Link>
                     </li>
                   </ul>
                 </li>

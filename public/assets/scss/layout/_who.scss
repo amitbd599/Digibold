@@ -2,6 +2,8 @@
   &__area {
     // background-image: url(../imgs/shape/zigzag.png);
     background-image: url("~/public/assets/imgs/shape/zigzag.png");
+    overflow: hidden;
+
     .sec-subtitle {
       margin-bottom: 30px;
     }

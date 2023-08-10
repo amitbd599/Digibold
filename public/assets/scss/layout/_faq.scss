@@ -1,6 +1,7 @@
 .faq {
   &__area {
     background-color: var(--black-2);
+    overflow: hidden;
 
     .sec-subtitle {
       margin-bottom: 30px;

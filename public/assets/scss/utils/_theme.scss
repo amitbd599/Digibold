@@ -101,6 +101,10 @@
 
   img {
     margin-bottom: 30px;
+
+    @media #{$md} {
+      margin-bottom: 20px;
+    }
   }
 
   .title {
@@ -110,6 +114,10 @@
     letter-spacing: 0.16px;
     color: var(--secondary);
     text-transform: uppercase;
+
+    @media #{$md} {
+      font-size: 36px;
+    }
   }
 
   p {
@@ -186,5 +194,31 @@
     opacity: 1;
     visibility: visible;
     background-position: 100% 100%;
+  }
+}
+
+
+.img-animation {
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+
+  @media #{$xl} {
+    height: 500px;
+  }
+  @media #{$md} {
+    height: auto;
+  }
+
+  img {
+    position: absolute;
+    height: 120%;
+    bottom: 0;
+    object-fit: cover;
+
+    @media #{$md} {
+      position: static;
+      height: auto;
+    }
   }
 }

@@ -5,6 +5,7 @@
     background-image: url("~/public/assets/imgs/shape/zigzag-2.png");
     background-position: bottom left;
     background-repeat: no-repeat;
+    overflow: hidden;
 
     @media #{$lg} {
       padding-bottom: 200px;

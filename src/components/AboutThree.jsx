@@ -46,7 +46,7 @@ const AboutThree = () => {
             <div className="about__item">
               <div
                 className="about__thumb"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-delay={300}
               >
                 <img

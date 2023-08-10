@@ -7,6 +7,7 @@ import RouteScrollToTop from "./elements/RouteScrollToTop";
 import About from "./pages/About";
 import HomeTwo from "./pages/HomeTwo";
 import HomeThree from "./pages/HomeThree";
+import HomeFour from "./pages/HomeFour";
 import ServiceDetailsPage from "./pages/ServiceDetailsPage";
 import ProjectPage from "./pages/ProjectPage";
 import ProjectDetailsPage from "./pages/ProjectDetailsPage";
@@ -23,6 +24,7 @@ function App() {
     });
     AOS.refresh();
   }, []);
+
   return (
     <BrowserRouter>
       <RouteScrollToTop />
@@ -30,6 +32,7 @@ function App() {
         <Route exact path="/" element={<HomeOne />} />
         <Route exact path="/index-2" element={<HomeTwo />} />
         <Route exact path="/index-3" element={<HomeThree />} />
+        <Route exact path="/index-4" element={<HomeFour />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />

@@ -3,6 +3,26 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 const TeamThree = () => {
+  const swiperParams = {
+    spaceBetween: 20,
+    slidesPerView: 1,
+    modules: [Autoplay],
+    loop: true,
+    autoplay: [
+      {
+        delay: 500,
+        disableOnInteraction: true,
+      },
+    ],
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+    },
+  };
   return (
     <>
       {/* Team area start */}
@@ -21,16 +41,7 @@ const TeamThree = () => {
         <div className="team__list-3 plr-100">
           <div className="swiper team__slider-3">
             <div className="swiper-wrappers">
-              <Swiper
-                slidesPerView={4}
-                spaceBetween={20}
-                modules={[Autoplay]}
-                autoplay={{
-                  delay: 500,
-                  disableOnInteraction: true,
-                }}
-                loop
-              >
+              <Swiper {...swiperParams}>
                 <SwiperSlide>
                   <div
                     className="team__member-3"

@@ -2,6 +2,20 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 const WorkProcessOne = () => {
+  const swiperParams = {
+    spaceBetween: 20,
+    slidesPerView: 1,
+    modules: [Navigation],
+    navigation: true,
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+    },
+  };
   return (
     <>
       {/* work process  */}
@@ -26,12 +40,7 @@ const WorkProcessOne = () => {
           <div className="work__wrapper">
             <div className="swiper workProcess-2">
               <div className="swiper-wrappers">
-                <Swiper
-                  slidesPerView={3}
-                  spaceBetween={20}
-                  modules={[Navigation]}
-                  navigation
-                >
+                <Swiper {...swiperParams}>
                   <SwiperSlide>
                     <div className="swiper-slide">
                       <div

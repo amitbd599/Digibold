@@ -22,6 +22,10 @@
       background-color: var(--gray-2);
       position: relative;
 
+      @media #{$lg} {
+        padding-bottom: 150px;
+      }
+
       .bg-shadow {
         font-weight: 600;
         font-size: 300px;
@@ -34,6 +38,18 @@
         left: 50%;
         bottom: 50px;
         transform: translateX(-50%);
+
+        @media #{$lg} {
+          font-size: 220px;
+        }
+
+        @media #{$md} {
+          font-size: 160px;
+        }
+
+        @media #{$sm} {
+          font-size: 80px;
+        }
       }
     }
 
@@ -62,6 +78,10 @@
     &-4 {
       margin-left: 60px;
 
+      @media #{$lg} {
+        margin-left: 20px;
+      }
+
       .call {
         gap: 30px;
         display: flex;
@@ -69,6 +89,16 @@
         background: var(--blue);
         padding: 35px 25px;
         width: 80%;
+        position: relative;
+        z-index: 5;
+
+        @media #{$xl} {
+          width: 100%;
+        }
+
+        @media #{$md} {
+         gap: 20px;
+        }
 
         span {
           width: 75px;
@@ -80,6 +110,12 @@
           border-radius: 100%;
           font-size: 25px;
           color: var(--blue);
+
+          @media #{$md} {
+            width: 60px;
+            height: 60px;
+            font-size: 20px;
+          }
         }
 
         p {
@@ -97,6 +133,15 @@
           letter-spacing: 0.16px;
           text-transform: uppercase;
           color: #F4F5FA;
+
+          @media #{$lg} {
+            font-size: 40px;
+          }
+
+          @media #{$md} {
+            font-size: 30px;
+            line-height: 1.1;
+          }
         }
       }
     }
@@ -220,6 +265,12 @@
         position: absolute;
         bottom: -50px;
         left: 0;
+
+        @media #{$md} {
+         width: 220px;
+         padding: 30px;
+         bottom: -100px;
+        }
       }
     }
   }
