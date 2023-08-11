@@ -366,7 +366,7 @@
   }
 
   &__address {
-    padding-left: 80px;
+    padding-left: 40px;
 
     &.footer__address-2 {
       padding-left: 30px;
@@ -498,7 +498,7 @@
   }
 
   &__service {
-    padding-left: 80px;
+    padding-left: 40px;
 
     @media #{$lg} {
       padding-left: 0;
