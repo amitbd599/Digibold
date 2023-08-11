@@ -58,7 +58,7 @@ const TestimonialOne = () => {
                             <div className="img">
                               <img
                                 src="assets/imgs/testimonial/3/client.png"
-                                alt="Image"
+                                alt="digibold"
                               />
                             </div>
                             <div className="info">
@@ -102,7 +102,7 @@ const TestimonialOne = () => {
                             <div className="img">
                               <img
                                 src="assets/imgs/testimonial/3/client.png"
-                                alt="Image"
+                                alt="digibold"
                               />
                             </div>
                             <div className="info">
@@ -146,7 +146,7 @@ const TestimonialOne = () => {
                             <div className="img">
                               <img
                                 src="assets/imgs/testimonial/3/client.png"
-                                alt="Image"
+                                alt="digibold"
                               />
                             </div>
                             <div className="info">

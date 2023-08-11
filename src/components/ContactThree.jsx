@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const ContactThree = () => {
   return (
@@ -62,7 +61,7 @@ const ContactThree = () => {
                   <div className="img-animation">
                     <img
                       src="assets/imgs/contact/4/1.jpg"
-                      alt="Image"
+                      alt="digibold"
                       data-speed="auto"
                     />
                   </div>

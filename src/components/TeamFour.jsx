@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import { Link } from "react-router-dom";
 const TeamFour = () => {
   const swiperRef = useRef();
 
@@ -12,7 +11,7 @@ const TeamFour = () => {
       <section className="team__area-5 pt-150 swiper">
         <div className="row">
           <div className="col-lg-4">
-            <div className="team__left-5">
+            <div className="team__left-5" data-aos="fade-up">
               <span className="team__subtitle-5 heading-animation">
                 the team
               </span>
@@ -50,6 +49,9 @@ const TeamFour = () => {
                       slidesPerView: 2,
                     },
                     992: {
+                      slidesPerView: 2,
+                    },
+                    1024: {
                       slidesPerView: 3,
                     },
                   }}
@@ -63,7 +65,7 @@ const TeamFour = () => {
                         <div className="team__image">
                           <img
                             src="assets/imgs/home-5/t1.jpg"
-                            alt="Member Image"
+                            alt="digibold"
                           />
                           <div className="share__wrap">
                             <button className="share-btn">
@@ -71,19 +73,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -105,7 +107,7 @@ const TeamFour = () => {
                         <div className="team__image">
                           <img
                             src="assets/imgs/home-5/t2.jpg"
-                            alt="Member Image"
+                            alt="digibold"
                           />
                           <div className="share__wrap">
                             <button className="share-btn">
@@ -113,19 +115,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -147,7 +149,7 @@ const TeamFour = () => {
                         <div className="team__image">
                           <img
                             src="assets/imgs/home-5/t3.jpg"
-                            alt="Member Image"
+                            alt="digibold"
                           />
                           <div className="share__wrap">
                             <button className="share-btn">
@@ -155,19 +157,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -196,19 +198,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -238,19 +240,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -280,19 +282,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -321,19 +323,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -363,19 +365,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -405,19 +407,19 @@ const TeamFour = () => {
                             </button>
                             <ul className="social-share">
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-facebook-f" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-twitter" />
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link to="#">
                                   <i className="fa-brands fa-linkedin-in" />
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>

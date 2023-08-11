@@ -707,6 +707,9 @@ HOME FIVE PRICING
   }
   &__item-5 {
     position: relative;
+    @media #{$sm} {
+      margin-bottom: 50px;
+    }
     &:hover {
       .pricing__header-5 {
         background: var(--yellow-2);

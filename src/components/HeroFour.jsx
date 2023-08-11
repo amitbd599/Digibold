@@ -27,7 +27,7 @@ const HeroFour = () => {
           <div className="hero__right-4">
             <img
               src="assets/imgs/hero/4/1.png"
-              alt="Hero Image"
+              alt="digibold"
               data-lag="0.3"
             />
           </div>

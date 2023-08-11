@@ -3,6 +3,7 @@ import Isotope from "isotope-layout";
 import imagesLoaded from "imagesloaded";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 const GalleryThree = () => {
   const isotope = React.useRef(Isotope | null);
   const [active, setActive] = useState(1);
@@ -33,7 +34,11 @@ const GalleryThree = () => {
       <section className="gallary__area-5">
         <div className="container">
           <div className="gallary__section-wrapper">
-            <h2 className="gallary__sec-title heading-animation">
+            <h2
+              className="gallary__sec-title heading-animation"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
               <span>Elevating</span> Brands through <br /> Seamless Digital{" "}
               <small>Solutions</small>
             </h2>
@@ -47,7 +52,11 @@ const GalleryThree = () => {
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">
-                  <div className="portfolio__menu text-center mb-50">
+                  <div
+                    className="portfolio__menu text-center mb-50"
+                    data-aos="fade-up"
+                    data-aos-delay={300}
+                  >
                     <button
                       data-filter="*"
                       className={active === 1 ? "active" : null}
@@ -82,55 +91,55 @@ const GalleryThree = () => {
                   </div>
                 </div>
               </div>
-              <div className="grid filter-container">
+              <div className="grid filter-container" data-aos="fade-up">
                 <div className="portfolio filter-item cat1">
                   <div className="portfolio__thumb">
                     <img src="assets/imgs/home-5/pr-1.jpg" alt="" />
-                    <a className="portfolio__icon" href="project.html">
+                    <Link className="portfolio__icon" to="/project">
                       <img
                         src="assets/imgs/home-5/chevron-gallary.png"
                         alt="icon"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__text">
-                    <a href="project.html">
+                    <Link to="/project">
                       <h4 className="portfolio-title">Light Mockup</h4>
-                    </a>
+                    </Link>
                     <span>Graphic design</span>
                   </div>
                 </div>
                 <div className="portfolio filter-item cat2">
                   <div className="portfolio__thumb">
                     <img src="assets/imgs/home-5/pr-1.jpg" alt="" />
-                    <a className="portfolio__icon" href="project.html">
+                    <Link className="portfolio__icon" to="/project">
                       <img
                         src="assets/imgs/home-5/chevron-gallary.png"
                         alt="icon"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__text">
-                    <a href="project.html">
+                    <Link to="/project">
                       <h4 className="portfolio-title">Light Mockup</h4>
-                    </a>
+                    </Link>
                     <span>Graphic design</span>
                   </div>
                 </div>
                 <div className="portfolio filter-item cat3">
                   <div className="portfolio__thumb">
                     <img src="assets/imgs/home-5/pr-1.jpg" alt="" />
-                    <a className="portfolio__icon" href="project.html">
+                    <Link className="portfolio__icon" to="/project">
                       <img
                         src="assets/imgs/home-5/chevron-gallary.png"
                         alt="icon"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="portfolio__text">
-                    <a href="project.html">
+                    <Link to="/project">
                       <h4 className="portfolio-title">Light Mockup</h4>
-                    </a>
+                    </Link>
                     <span>Graphic design</span>
                   </div>
                 </div>

@@ -23,7 +23,7 @@ const GalleryTwo = () => {
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  <img src="assets/imgs/gallery/3/1.jpg" alt="Image" />
+                  <img src="assets/imgs/gallery/3/1.jpg" alt="digibold" />
                 </div>
                 <div
                   className="gallery__item-3"
@@ -36,7 +36,7 @@ const GalleryTwo = () => {
                     some form, by injected humour or randomised words which don
                     look even the design here us
                   </p>
-                  <img src="assets/imgs/gallery/3/2.jpg" alt="Image" />
+                  <img src="assets/imgs/gallery/3/2.jpg" alt="digibold" />
                 </div>
               </div>
             </div>
@@ -49,21 +49,21 @@ const GalleryTwo = () => {
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
-                  <img src="assets/imgs/gallery/3/3.jpg" alt="Image" />
+                  <img src="assets/imgs/gallery/3/3.jpg" alt="digibold" />
                 </div>
                 <div
                   className="gallery__item-3"
                   data-aos="fade-up"
                   data-aos-delay={400}
                 >
-                  <img src="assets/imgs/gallery/3/4.jpg" alt="Image" />
+                  <img src="assets/imgs/gallery/3/4.jpg" alt="digibold" />
                 </div>
                 <div
                   className="gallery__item-3"
                   data-aos="fade-up"
                   data-aos-delay={600}
                 >
-                  <img src="assets/imgs/gallery/3/5.jpg" alt="Image" />
+                  <img src="assets/imgs/gallery/3/5.jpg" alt="digibold" />
                 </div>
               </div>
             </div>

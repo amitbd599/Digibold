@@ -30,7 +30,7 @@ const AboutOne = () => {
                 </div>
                 <div className="projects">
                   <img src="assets/imgs/icon/medal.png" alt="Medal Icon" />
-                  <p>
+                  <div>
                     <span className="counter_fast">
                       <TrackVisibility once>
                         {({ isVisible }) =>
@@ -44,7 +44,7 @@ const AboutOne = () => {
                       </TrackVisibility>
                     </span>
                     Project Complete
-                  </p>
+                  </div>
                 </div>
               </div>
             </div>

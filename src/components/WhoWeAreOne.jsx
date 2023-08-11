@@ -76,11 +76,11 @@ const WhoWeAreOne = () => {
                 // data-aos-delay={1000}
               >
                 <div className="main-img">
-                  <img src="assets/imgs/who/1.png" alt="Image" />
+                  <img src="assets/imgs/who/1.png" alt="Imageed" />
                 </div>
                 <div className="who__project">
                   <div className="project-completed">
-                    <img src="assets/imgs/who/hand.png" alt="Hand Image" />
+                    <img src="assets/imgs/who/hand.png" alt="Hand " />
                     <h3 className="total counter_fast">2k+</h3>
                     <p>Project Completed</p>
                   </div>

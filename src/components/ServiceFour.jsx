@@ -27,71 +27,71 @@ const ServiceFour = () => {
                 data-aos-delay={300}
               >
                 <div className="service__item-4" data-tilt="">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <img src="assets/imgs/service/4/1.png" alt="Thumbnail" />
-                  </a>
+                  </Link>
                   <div className="service__content-4">
                     <div className="icon">
-                      <img src="assets/imgs/service/4/i1.png" alt="Image" />
+                      <img src="assets/imgs/service/4/i1.png" alt="digibold" />
                     </div>
                     <p>Our services</p>
-                    <a href="service-details.html">
+                    <Link to="/service-details">
                       <h3 className="service__title-4">Regular update</h3>
-                    </a>
-                    <a className="link" href="service-details.html">
+                    </Link>
+                    <Link className="link" to="/service-details">
                       <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="service__item-4" data-tilt="">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <img src="assets/imgs/service/4/2.png" alt="Thumbnail" />
-                  </a>
+                  </Link>
                   <div className="service__content-4">
                     <div className="icon">
-                      <img src="assets/imgs/service/4/i2.png" alt="Image" />
+                      <img src="assets/imgs/service/4/i2.png" alt="digibold" />
                     </div>
                     <p>Our services</p>
-                    <a href="service-details.html">
+                    <Link to="/service-details">
                       <h3 className="service__title-4">Regular update</h3>
-                    </a>
-                    <a className="link" href="service-details.html">
+                    </Link>
+                    <Link className="link" to="/service-details">
                       <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="service__item-4" data-tilt="">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <img src="assets/imgs/service/4/3.png" alt="Thumbnail" />
-                  </a>
+                  </Link>
                   <div className="service__content-4">
                     <div className="icon">
-                      <img src="assets/imgs/service/4/i3.png" alt="Image" />
+                      <img src="assets/imgs/service/4/i3.png" alt="digibold" />
                     </div>
                     <p>Our services</p>
-                    <a href="">
+                    <Link to="">
                       <h3 className="service__title-4">Regular update</h3>
-                    </a>
-                    <a className="link" href="">
+                    </Link>
+                    <Link className="link" to="">
                       <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="service__item-4" data-tilt="">
-                  <a href="service-details.html">
+                  <Link to="/service-details">
                     <img src="assets/imgs/service/4/2.png" alt="Thumbnail" />
-                  </a>
+                  </Link>
                   <div className="service__content-4">
                     <div className="icon">
-                      <img src="assets/imgs/service/4/i4.png" alt="Image" />
+                      <img src="assets/imgs/service/4/i4.png" alt="digibold" />
                     </div>
                     <p>Our services</p>
-                    <a href="service-details.html">
+                    <Link to="/service-details">
                       <h3 className="service__title-4">Regular update</h3>
-                    </a>
-                    <a className="link" href="service-details.html">
+                    </Link>
+                    <Link className="link" to="/service-details">
                       <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

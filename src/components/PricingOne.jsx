@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PricingOne = () => {
   return (
@@ -16,7 +17,7 @@ const PricingOne = () => {
           </div>
           <div className="pricing__items-5">
             <div className="pricing__item-5">
-              <div className="pricing__header-5">
+              <div className="pricing__header-5 ">
                 <h2 className="title">Stater</h2>
                 <h3 className="title-2">
                   <span>$19</span>/month
@@ -35,9 +36,9 @@ const PricingOne = () => {
                 </ul>
               </div>
               <div className="pricing__btn-wrapper">
-                <a className="pricing__btn" href="about.html">
+                <Link className="pricing__btn" to="/contact">
                   <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="pricing__item-5">
@@ -60,9 +61,9 @@ const PricingOne = () => {
                 </ul>
               </div>
               <div className="pricing__btn-wrapper">
-                <a className="pricing__btn" href="about.html">
+                <Link className="pricing__btn" to="/contact">
                   <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="pricing__item-5">
@@ -85,9 +86,9 @@ const PricingOne = () => {
                 </ul>
               </div>
               <div className="pricing__btn-wrapper">
-                <a className="pricing__btn" href="about.html">
+                <Link className="pricing__btn" to="/contact">
                   <i className="fa-solid fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -15,9 +15,9 @@ const BlogFour = () => {
               </h3>
             </div>
             <div className="btn-wrap" data-aos="fade-up" data-aos-delay={300}>
-              <a className="db-btn-border btn-rollover" href="">
+              <Link className="db-btn-border btn-rollover" to="#">
                 Discover more <i className="fa-solid fa-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="row">
@@ -29,32 +29,32 @@ const BlogFour = () => {
                   data-aos-delay={300}
                 >
                   <div className="blog__thumb-4" data-tilt="">
-                    <a href="">
+                    <Link to="#">
                       <img src="assets/imgs/blog/4/1.png" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog__content-4">
                     <ul className="blog__meta-4">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-regular fa-folder-open" /> Category
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-regular fa-calendar-days" /> October
                           19, 20222
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <a href="">
+                    <Link to="#">
                       <h4 className="blog__title">
                         The standard chunk of Lorem Ipsum Our Company
                       </h4>
-                    </a>
-                    <a className="db-btn-arrow" href="">
+                    </Link>
+                    <Link className="db-btn-arrow" to="#">
                       Read More <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </article>
                 <article
@@ -63,32 +63,32 @@ const BlogFour = () => {
                   data-aos-delay={400}
                 >
                   <div className="blog__thumb-4" data-tilt="">
-                    <a href="">
+                    <Link to="#">
                       <img src="assets/imgs/blog/4/2.png" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog__content-4">
                     <ul className="blog__meta-4">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-regular fa-folder-open" /> Category
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-regular fa-calendar-days" /> October
                           19, 20222
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <a href="">
+                    <Link to="#">
                       <h4 className="blog__title">
                         The standard chunk of Lorem Ipsum Our Company
                       </h4>
-                    </a>
-                    <a className="db-btn-arrow" href="">
+                    </Link>
+                    <Link className="db-btn-arrow" to="#">
                       Read More <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </article>
                 <article
@@ -97,32 +97,32 @@ const BlogFour = () => {
                   data-aos-delay={500}
                 >
                   <div className="blog__thumb-4" data-tilt="">
-                    <a href="">
+                    <Link to="#">
                       <img src="assets/imgs/blog/4/3.png" alt="Thumbnail" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="blog__content-4">
                     <ul className="blog__meta-4">
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-regular fa-folder-open" /> Category
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-regular fa-calendar-days" /> October
                           19, 20222
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <a href="">
+                    <Link to="#">
                       <h4 className="blog__title">
                         The standard chunk of Lorem Ipsum Our Company
                       </h4>
-                    </a>
-                    <a className="db-btn-arrow" href="">
+                    </Link>
+                    <Link className="db-btn-arrow" to="#">
                       Read More <i className="fa-solid fa-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </article>
               </div>

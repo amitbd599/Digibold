@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Link } from "react-router-dom";
+
 const TestimonialTwo = () => {
   const swiperRef = useRef();
   return (
@@ -10,7 +10,11 @@ const TestimonialTwo = () => {
       <section className="testimonial__area-5">
         <div className="container">
           <div className="digibold-section-wrapper-5">
-            <h2 className="section-subtitle-5 heading-animation">
+            <h2
+              className="section-subtitle-5 heading-animation"
+              data-aos="fade-up"
+              data-aos-delay={300}
+            >
               Testomonials
             </h2>
             <h3 className="section-title-5 heading-animation">
@@ -18,13 +22,13 @@ const TestimonialTwo = () => {
             </h3>
             {/* If we need navigation buttons */}
             <div
-              className="testimonial-five-prev"
+              className="testimonial-five-prev cursor"
               onClick={() => swiperRef.current?.slidePrev()}
             >
               <i className="fa-solid fa-chevron-left" />
             </div>
             <div
-              className="testimonial-five-next"
+              className="testimonial-five-next cursor"
               onClick={() => swiperRef.current?.slideNext()}
             >
               <i className="fa-solid fa-chevron-right" />

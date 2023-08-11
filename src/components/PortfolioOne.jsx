@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 const PortfolioOne = () => {
   const swiperParams = {
     spaceBetween: 20,
@@ -53,19 +54,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={200}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/1.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -77,19 +78,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={300}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/2.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -101,19 +102,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={400}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/3.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -125,19 +126,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={500}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/4.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -149,19 +150,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={600}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/5.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -173,19 +174,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={200}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/6.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -197,19 +198,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={200}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/7.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -221,19 +222,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={200}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/8.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -245,19 +246,19 @@ const PortfolioOne = () => {
                           data-aos="fade-up"
                           data-aos-delay={200}
                         >
-                          <a href="">
+                          <Link to="#">
                             <img
                               src="assets/imgs/portfolio/9.jpg"
                               alt="Thumbnail"
                             />
-                          </a>
+                          </Link>
                           <div className="portfolio__content-4">
                             <p>Lorem Ipsum is simply</p>
-                            <a href="">
+                            <Link to="#">
                               <h2 className="portfolio__title-4">
                                 Content Creation Services
                               </h2>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>

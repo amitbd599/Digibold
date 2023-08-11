@@ -14,6 +14,7 @@ const FooterOne = () => {
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1511.2499674845235!2d-73.99553882767792!3d40.75102778252164!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1686536419224!5m2!1sen!2sbd"
                     loading="lazy"
+                    title="digibold"
                   />
                 </div>
               </div>

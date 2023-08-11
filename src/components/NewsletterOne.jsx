@@ -9,7 +9,7 @@ const NewsletterOne = () => {
           <div className="row">
             <div className="col-xxl-5 col-xl-5 col-lg-5">
               <div className="newsletter__left" data-aos="fade-right">
-                <img src="assets/imgs/newsletter/1.png" alt="Image" />
+                <img src="assets/imgs/newsletter/1.png" alt="digibold" />
               </div>
             </div>
             <div className="col-xxl-7 col-xl-7 col-lg-7">

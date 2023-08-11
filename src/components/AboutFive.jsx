@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const AboutFive = () => {
   return (
@@ -17,13 +16,13 @@ const AboutFive = () => {
                 <img
                   className="img-1"
                   src="assets/imgs/about/4/1.png"
-                  alt="Image"
+                  alt="digibold"
                   data-speed="0.9"
                 />
                 <img
                   className="img-2"
                   src="assets/imgs/about/4/2.png"
-                  alt="Image"
+                  alt="digibold"
                 />
                 <div className="activity">
                   <div className="icon">

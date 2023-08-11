@@ -8,7 +8,11 @@ const HistoryOne = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div className="digibold-section-wrapper-5">
+              <div
+                className="digibold-section-wrapper-5"
+                data-aos="fade-up"
+                data-aos-delay={300}
+              >
                 <h2 className="section-subtitle-5 heading-animation">
                   OUR HISTORY
                 </h2>
@@ -18,7 +22,11 @@ const HistoryOne = () => {
               </div>
               <div className="history__content-5">
                 <div className="history__items-5">
-                  <div className="history__item-5">
+                  <div
+                    className="history__item-5"
+                    data-aos="fade-up"
+                    data-aos-delay={200}
+                  >
                     <img
                       className="double-chevron"
                       src="assets/imgs/home-5/chevron-right.png"
@@ -31,7 +39,11 @@ const HistoryOne = () => {
                       distracted by the desi readable contentk layout.
                     </p>
                   </div>
-                  <div className="history__item-5">
+                  <div
+                    className="history__item-5"
+                    data-aos="fade-up"
+                    data-aos-delay={300}
+                  >
                     <img
                       className="double-chevron"
                       src="assets/imgs/home-5/chevron-right.png"
@@ -44,7 +56,11 @@ const HistoryOne = () => {
                       distracted by the desi readable contentk layout.
                     </p>
                   </div>
-                  <div className="history__item-5">
+                  <div
+                    className="history__item-5"
+                    data-aos="fade-up"
+                    data-aos-delay={400}
+                  >
                     <img
                       className="double-chevron"
                       src="assets/imgs/home-5/chevron-right.png"
@@ -57,7 +73,11 @@ const HistoryOne = () => {
                       distracted by the desi readable contentk layout.
                     </p>
                   </div>
-                  <div className="history__item-5">
+                  <div
+                    className="history__item-5"
+                    data-aos="fade-up"
+                    data-aos-delay={500}
+                  >
                     <img
                       className="double-chevron"
                       src="assets/imgs/home-5/chevron-right.png"
@@ -74,10 +94,14 @@ const HistoryOne = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="history__thumb-5">
+              <div
+                className="history__thumb-5"
+                data-aos="fade-up"
+                data-aos-delay={300}
+              >
                 <img
                   src="assets/imgs/home-5/history.png"
-                  alt="history image"
+                  alt="history "
                   data-lag="0.3"
                 />
                 <div className="history__circle-btn-wrapper">

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const HeaderFive = () => {
   const [search, setSearch] = useState(false);
   const [offCanvas, setOffCanvas] = useState(false);
-  const [active, setActive] = useState(false);
 
   useEffect(() => {
     var offCanvasNav = document.getElementById("offcanvas-navigation");
@@ -50,24 +49,24 @@ const HeaderFive = () => {
       <header className="header__area-3 pos-abs plr-100">
         <div className="header__inner-3">
           <div className="header__logo">
-            <a href="">
+            <Link to="#">
               <img src="assets/imgs/logo/logo-light-3.png" alt="Site Logo" />
-            </a>
+            </Link>
           </div>
           <div className="header__menu-3">
             <nav className="main-menu">
               <ul>
                 <li className="has-dropdown">
-                  <a href="#">Home</a>
+                  <Link to="#">Home</Link>
                   <ul className="main-dropdown">
                     <li>
-                      <a href="index.html">home one</a>
+                      <Link to="/">home one</Link>
                     </li>
                     <li>
-                      <a href="index-2.html">home two</a>
+                      <Link to="/index-2">home two</Link>
                     </li>
                     <li>
-                      <a href="index-3.html">home three</a>
+                      <Link to="/index-3">home three</Link>
                     </li>
                     <li>
                       <Link to="/index-4">home Four</Link>
@@ -78,29 +77,29 @@ const HeaderFive = () => {
                   </ul>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li className="has-dropdown">
-                  <a href="#">Service</a>
+                  <Link to="#">Service</Link>
                   <ul className="main-dropdown">
                     <li>
-                      <a href="service-details.html">Service details</a>
+                      <Link to="/service-details">Service details</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="has-megamenu">
-                  <a href="#">pages</a>
+                  <Link to="#">pages</Link>
                   <div className="mega-menu">
                     <ul>
                       <li>home</li>
                       <li>
-                        <a href="index.html">home one</a>
+                        <Link to="/">home one</Link>
                       </li>
                       <li>
-                        <a href="index-2.html">home two</a>
+                        <Link to="/index-2">home two</Link>
                       </li>
                       <li>
-                        <a href="index-3.html">home three</a>
+                        <Link to="/index-3">home three</Link>
                       </li>
                       <li>
                         <Link to="/index-4">home Four</Link>
@@ -112,44 +111,44 @@ const HeaderFive = () => {
                     <ul>
                       <li>service</li>
                       <li>
-                        <a href="service-details.html">Service details</a>
+                        <Link to="/service-details">Service details</Link>
                       </li>
                     </ul>
                     <ul>
                       <li>portfolio</li>
                       <li>
-                        <a href="project.html">portfolio</a>
+                        <Link to="/project">portfolio</Link>
                       </li>
                       <li>
-                        <a href="project-details.html">portfolio details</a>
+                        <Link to="/project-details">portfolio details</Link>
                       </li>
                     </ul>
                     <ul>
                       <li>Blog</li>
                       <li>
-                        <a href="blog.html">Blog</a>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="blog-details.html">Blog details</a>
+                        <Link to="/blog-details">Blog details</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li className="has-dropdown">
-                  <a href="#">blog</a>
+                  <Link to="#">blog</Link>
                   <ul className="main-dropdown">
                     <li className="has-dropdown">
-                      <a href="blog.html">Blog</a>
+                      <Link to="/blog">Blog</Link>
                       <ul className="sub-dropdown">
                         <li>
-                          <a href="blog-details.html">blog details</a>
+                          <Link to="/blog-details">blog details</Link>
                         </li>
                       </ul>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>
@@ -224,13 +223,10 @@ const HeaderFive = () => {
                 </li>
 
                 <li className="menu-item-has-children">
-                  <Link to="/services">Services</Link>
+                  <Link to="#">Services</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/services">Service Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/services-details">Services Details</Link>
+                      <Link to="/service-details">Services Details</Link>
                     </li>
                   </ul>
                 </li>
@@ -241,24 +237,16 @@ const HeaderFive = () => {
                     <li>
                       <Link to="/about">About Us</Link>
                     </li>
-                    <li>
-                      <Link to="/team">Team</Link>
-                    </li>
-                    <li>
-                      <Link to="/team-details">Team Details</Link>
-                    </li>
+                    
+                   
                     <li>
                       <Link to="/project">Projects</Link>
                     </li>
                     <li>
                       <Link to="/project-details">Projects Details</Link>
                     </li>
-                    <li>
-                      <Link to="/pricing">Pricing Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">FAQ Page</Link>
-                    </li>
+                    
+                  
                   </ul>
                 </li>
                 <li className="menu-item-has-children">
@@ -280,6 +268,7 @@ const HeaderFive = () => {
           </div>
           <div className="offcanvas__map">
             <iframe
+              title="map"
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1511.2499674845235!2d-73.99553882767792!3d40.75102778252164!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1686536419224!5m2!1sen!2sbd"
               loading="lazy"
             />
@@ -321,19 +310,19 @@ const HeaderFive = () => {
             <div className="footer__social-3">
               <ul>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-facebook-f" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-twitter" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-instagram" />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

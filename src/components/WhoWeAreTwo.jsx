@@ -58,11 +58,11 @@ const WhoWeAreTwo = () => {
             <div className="col-xxl-7 col-xl-7 col-lg-6">
               <div className="who__right">
                 <div className="main-img">
-                  <img src="assets/imgs/who/6/1.png" alt="Image" />
+                  <img src="assets/imgs/who/6/1.png" alt="digibold" />
                 </div>
                 <div className="who__project">
                   <div className="project-completed">
-                    <img src="assets/imgs/who/6/hand.png" alt="Hand Image" />
+                    <img src="assets/imgs/who/6/hand.png" alt="digibold" />
                     <h3 className="total counter_fast">2k+</h3>
                     <p>Project Completed</p>
                   </div>

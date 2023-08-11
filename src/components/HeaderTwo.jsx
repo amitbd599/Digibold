@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const HeaderTwo = () => {
-  const [search, setSearch] = useState(false);
   const [offCanvas, setOffCanvas] = useState(false);
-  const [active, setActive] = useState(false);
 
   useEffect(() => {
     var offCanvasNav = document.getElementById("offcanvas-navigation");
@@ -37,7 +35,6 @@ const HeaderTwo = () => {
   }, []);
 
   const offCanvasControl = () => {
-    setSearch(false);
     setOffCanvas(!offCanvas);
   };
   return (
@@ -83,13 +80,10 @@ const HeaderTwo = () => {
                 </li>
 
                 <li className="menu-item-has-children">
-                  <Link to="/services">Services</Link>
+                  <Link to="#">Services</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/services">Service Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/services-details">Services Details</Link>
+                      <Link to="/service-details">Services Details</Link>
                     </li>
                   </ul>
                 </li>
@@ -100,23 +94,12 @@ const HeaderTwo = () => {
                     <li>
                       <Link to="/about">About Us</Link>
                     </li>
-                    <li>
-                      <Link to="/team">Team</Link>
-                    </li>
-                    <li>
-                      <Link to="/team-details">Team Details</Link>
-                    </li>
+
                     <li>
                       <Link to="/project">Projects</Link>
                     </li>
                     <li>
                       <Link to="/project-details">Projects Details</Link>
-                    </li>
-                    <li>
-                      <Link to="/pricing">Pricing Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">FAQ Page</Link>
                     </li>
                   </ul>
                 </li>
@@ -141,6 +124,7 @@ const HeaderTwo = () => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1511.2499674845235!2d-73.99553882767792!3d40.75102778252164!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1686536419224!5m2!1sen!2sbd"
               loading="lazy"
+              title="digibold"
             />
           </div>
           <div className="offcanvas__btm">

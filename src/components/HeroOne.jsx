@@ -39,7 +39,7 @@ const HeroOne = () => {
                 executing marketing and{" "}
               </p>
             </div>
-            <img src="/assets/imgs/hero/1.png" alt="Hero Image" />
+            <img src="/assets/imgs/hero/1.png" alt="digibold" />
           </div>
         </div>
         <img className="shape-1" src="assets/imgs/shape/1.png" alt="Shape" />

@@ -16,12 +16,12 @@ const FooterSix = () => {
             <div className="row">
               <div className="col-xxl-4 col-xl-3 col-lg-6 col-md-6">
                 <div className="footer__logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img
                       src="assets/imgs/logo/logo-light.png"
                       alt="Footer Logo"
                     />
-                  </a>
+                  </Link>
                   <p>
                     Conditions Terms of Use Ours feturesin Services ew Guests
                     LisitThe Team List Guests LisitThe Team List
@@ -29,19 +29,19 @@ const FooterSix = () => {
                   <div className="footer__social-3">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -52,16 +52,16 @@ const FooterSix = () => {
                   <h2 className="footer__title">More Servicve</h2>
                   <ul>
                     <li>
-                      <a href="about.html">Ui Design</a>
+                      <Link to="/about">Ui Design</Link>
                     </li>
                     <li>
-                      <a href="about.html">Ux Design</a>
+                      <Link to="/about">Ux Design</Link>
                     </li>
                     <li>
-                      <a href="about.html">Digital Marketing</a>
+                      <Link to="/about">Digital Marketing</Link>
                     </li>
                     <li>
-                      <a href="about.html">Video Editing</a>
+                      <Link to="/about">Video Editing</Link>
                     </li>
                   </ul>
                 </div>
@@ -83,13 +83,15 @@ const FooterSix = () => {
                       <span>
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="tel:+88014420420">+88 014 420420</a>
+                      <a href="/tel:+88014420420">+88 014 420420</a>
                     </li>
                     <li>
                       <span>
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="mailto:urcompany@mail.com">urcompany@mail.com</a>
+                      <a href="/mailto:urcompany@mail.com">
+                        urcompany@mail.com
+                      </a>
                     </li>
                   </ul>
                 </div>

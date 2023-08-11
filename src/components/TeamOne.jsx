@@ -46,7 +46,7 @@ const TeamOne = () => {
               <div className="team__list">
                 <div className="team__member" data-aos="fade-up">
                   <div className="team__image">
-                    <img src="assets/imgs/team/1.png" alt="Member Image" />
+                    <img src="assets/imgs/team/1.png" alt="digibold" />
                     <div className="share__wrap">
                       <button className="share-btn">
                         <i className="fa-solid fa-share-nodes" />
@@ -81,7 +81,7 @@ const TeamOne = () => {
                   data-aos-delay={300}
                 >
                   <div className="team__image">
-                    <img src="assets/imgs/team/2.png" alt="Member Image" />
+                    <img src="assets/imgs/team/2.png" alt="digibold" />
                     <div className="share__wrap">
                       <button className="share-btn">
                         <i className="fa-solid fa-share-nodes" />
@@ -116,7 +116,7 @@ const TeamOne = () => {
                   data-aos-delay={600}
                 >
                   <div className="team__image">
-                    <img src="assets/imgs/team/3.png" alt="Member Image" />
+                    <img src="assets/imgs/team/3.png" alt="digibold" />
                     <div className="share__wrap">
                       <button className="share-btn">
                         <i className="fa-solid fa-share-nodes" />

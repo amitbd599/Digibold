@@ -14,9 +14,9 @@ const FooterFive = () => {
                   <h2 className="title">
                     Meet The Main Pioneers <br /> of Education
                   </h2>
-                  <a href="" className="db-btn-primary">
+                  <Link to="#" className="db-btn-primary">
                     Read More About <i className="fa-solid fa-plus" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -38,19 +38,19 @@ const FooterFive = () => {
                   <div className="footer__social-4">
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -89,16 +89,16 @@ const FooterFive = () => {
                   <h2 className="footer__title">More Servicve</h2>
                   <ul>
                     <li>
-                      <a href="#">Ui Design</a>
+                      <Link to="#">Ui Design</Link>
                     </li>
                     <li>
-                      <a href="#">Ux Design</a>
+                      <Link to="#">Ux Design</Link>
                     </li>
                     <li>
-                      <a href="#">Digital Marketing</a>
+                      <Link to="#">Digital Marketing</Link>
                     </li>
                     <li>
-                      <a href="#">Video Editing</a>
+                      <Link to="#">Video Editing</Link>
                     </li>
                   </ul>
                 </div>
@@ -112,17 +112,17 @@ const FooterFive = () => {
                   </p>
                 </div>
                 <div className="footer__rblog-4">
-                  <a href="blog-details.html">
+                  <Link to="/blog-details">
                     <img src="assets/imgs/home-2/recent-2.jpg" alt="rtitle" />
-                  </a>
+                  </Link>
                   <div className="footer__rcontent-4">
                     <p>
                       <i className="fa-solid fa-calendar-days" /> October 19,
                       2022
                     </p>
-                    <a href="blog-details.html">
+                    <Link to="/blog-details">
                       <h3>The standard chunk of Lorem Ipsum</h3>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -134,10 +134,10 @@ const FooterFive = () => {
                   <div className="footer__menu-4">
                     <ul>
                       <li>
-                        <a href="#">Privacy Policy.</a>
+                        <Link to="#">Privacy Policy.</Link>
                       </li>
                       <li>
-                        <a href="#">Terms Of Condition</a>
+                        <Link to="#">Terms Of Condition</Link>
                       </li>
                     </ul>
                   </div>
