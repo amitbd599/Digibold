@@ -8,6 +8,7 @@ import About from "./pages/About";
 import HomeTwo from "./pages/HomeTwo";
 import HomeThree from "./pages/HomeThree";
 import HomeFour from "./pages/HomeFour";
+import HomeFive from "./pages/HomeFive";
 import ServiceDetailsPage from "./pages/ServiceDetailsPage";
 import ProjectPage from "./pages/ProjectPage";
 import ProjectDetailsPage from "./pages/ProjectDetailsPage";
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="/index-2" element={<HomeTwo />} />
         <Route exact path="/index-3" element={<HomeThree />} />
         <Route exact path="/index-4" element={<HomeFour />} />
+        <Route exact path="/index-5" element={<HomeFive />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<BlogPage />} />
         <Route exact path="/blog-details" element={<BlogDetailsPage />} />

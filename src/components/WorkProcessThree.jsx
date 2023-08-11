@@ -1,21 +1,6 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+
 const WorkProcessThree = () => {
-  const swiperParams = {
-    spaceBetween: 20,
-    slidesPerView: 1,
-    modules: [Navigation],
-    navigation: true,
-    breakpoints: {
-      768: {
-        slidesPerView: 2,
-      },
-      992: {
-        slidesPerView: 3,
-      },
-    },
-  };
   return (
     <>
       {/* Work Process area start */}

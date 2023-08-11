@@ -78,13 +78,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-// Download Fonts
-// @font-face {
-//   font-family: 'Euclid Circular';
-//   src: url(../fonts/euclid-circular/Euclid-Circular-B-Light.ttf);
-//   font-weight: 300;
-// }
+html,
+body {
+  overflow-x: hidden;
+}
 
 // Google Fonts
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
